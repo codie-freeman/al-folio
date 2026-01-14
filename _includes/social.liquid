@@ -1,5 +1,6 @@
 {% for social in site.data.socials %}
   {% case social[0] %}
+  
     {% when 'academia_edu' %}
       <a href="https://{{ social[1].organization }}.academia.edu/{{ social[1].username }}" title="Academia.edu"><i class="ai ai-academia"></i></a>
     {% when 'acm_id' %}
@@ -10,6 +11,8 @@
       <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
     {% when 'bluesky_url' %}
       <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+    {% when 'behance_username' %}
+      <a href="https://www.behance.net/{{ social[1] | cgi_escape }}" title="Behance"><i class="fa-brands fa-behance"></i></a>
     {% when 'cv_pdf' %}
       <a href="{{ social[1] | relative_url }}" title="CV" target="_blank"><i class="ai ai-cv"></i></a>
     {% when 'dblp_url' %}

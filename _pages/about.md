@@ -2,28 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.reading.ac.uk/chemistry/'>University of Reading</a> | <a href='https://www.resolian.com/'>Resolian</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 selected_papers: false # was true; disable because jekyll-scholar is removed
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m **Codie Freeman** — a `BSc Pharmaceutical Chemistry student` interested in how science connects to **strategy**, **operations**, and the **business side** of drug development. I’m currently on placement at <a href='https://www.resolian.com/'>Resolian</a>, gaining hands‑on experience in a `GMP‑compliant` environment and learning how data, documentation, and decision‑making come together in real projects.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+---
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Background
+
+Before moving into pharma, I spent several years as a `senior manager` in a busy **£3M‑a‑year hospitality unit**, leading large teams in a fast‑moving, regulated setting. It was a role I genuinely enjoyed - a mix of people management, problem‑solving, and keeping things steady when it all gets a bit chaotic.
+
+---
+
+### Outside the Lab
+
+I’m a `STEM Ambassador` and a long‑time `graphic design` hobbyist. I enjoy clean visuals, clear communication, and making technical ideas easier to understand — whether through outreach or design.
+
+---
+
+### Looking Ahead
+
+I’m still exploring where I want to land long‑term. I enjoy wet based chemistry, but I’m also drawn to roles that sit closer to `operations`, and the `commercial` side of the industry. What matters most to me is working somewhere that blends **science, clarity, and impact**.
