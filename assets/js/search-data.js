@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -44,11 +37,57 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
+            },{id: "post-test",
+        
+          title: "Test",
+        
+        description: "Test",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Test/";
+          
+        },
+      },{id: "books-animal-farm",
+          title: 'Animal Farm',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/Animal%20Farm/";
+            },},{id: "books-im-glad-my-mom-died",
+          title: 'Im Glad My Mom Died',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Im%20Glad%20My%20Mom%20Died/";
+            },},{id: "books-the-bullet-that-missed",
+          title: 'The Bullet That Missed',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Bullet%20That%20Missed/";
+            },},{id: "books-the-last-devil-to-die",
+          title: 'The Last Devil to Die',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Last%20Devil%20to%20Die/";
+            },},{id: "books-the-man-who-died-twice",
+          title: 'The Man Who Died Twice',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Man%20Who%20Died%20Twice/";
+            },},{id: "books-the-prison-doctor",
+          title: 'The Prison Doctor',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Prison%20Doctor/";
+            },},{id: "books-the-thursday-murder-club",
+          title: 'The Thursday Murder Club',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/TheThursdayMurderClub/";
+            },},{id: "books-what-if",
+          title: 'What If?',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/What%20If?/";
             },},{
         id: 'social-email',
         title: 'email',
