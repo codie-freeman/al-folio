@@ -6,7 +6,8 @@ subtitle: <a href='https://www.reading.ac.uk/chemistry/'>University of Reading</
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: lightprofilepic.jpg
+  image_dark: darkprofilepic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 
