@@ -1,3 +1,20 @@
 .site-footer {
   display: none !important;
 }
+
+/* About profile image swap (site theme toggle) */
+.only-dark { display: none; }
+.only-light { display: block; }
+
+/* Most al-folio versions */
+html[data-theme="dark"] .only-dark { display: block; }
+html[data-theme="dark"] .only-light { display: none; }
+
+/* Fallbacks (in case your toggle uses classes instead) */
+html.dark .only-dark,
+body.dark .only-dark,
+body.dark-mode .only-dark { display: block; }
+
+html.dark .only-light,
+body.dark .only-light,
+body.dark-mode .only-light { display: none; }
