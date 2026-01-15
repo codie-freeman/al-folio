@@ -27,6 +27,12 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+/* Hide footer on individual book review pages */
+body.layout-book-review footer,
+body.layout-book-review .footer {
+  display: none !important;
+}
+
 .container {
   max-width: $max-content-width;
 }
