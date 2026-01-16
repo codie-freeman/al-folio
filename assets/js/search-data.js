@@ -123,6 +123,11 @@ ninja.data = [{
           description: "Second‑year pharmaceutical chemistry project (83%)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Identification%20and%20quantification%20of%20ARVs/";
+            },},{id: "projects-satraplatin-as-an-orally-active-pt-iv-prodrug",
+          title: 'Satraplatin as an Orally Active Pt(IV) Prodrug',
+          description: "Pharmaceutical Chemistry group poster project (70%)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Satraplatin%20as%20an%20Orally%20Active%20Pt(IV)%20Prodrug/";
             },},{
         id: 'social-email',
         title: 'email',
