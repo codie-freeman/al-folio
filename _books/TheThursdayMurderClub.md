@@ -16,4 +16,3 @@ goodreads_review:
 status: Finished
 ---
 
-Very easy reading, a wonderful debut novel from Richard Osman. Genuinely good story with good twists and resolutions. I would whole heartedly recommend the book, but recommend you give the movie a miss.

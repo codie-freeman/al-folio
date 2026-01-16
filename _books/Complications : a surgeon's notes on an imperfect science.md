@@ -1,17 +1,17 @@
 ---
 layout: book-review
-title: Animal Farm
-author: George Orwell
+title: Complications - a surgeon's notes on an imperfect science
+author: Atul Gawande
 cover: 
-olid: OL39803669M # use Open Library ID to fetch cover (if no `cover` is provided)
+olid: OL20263812M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:
 tags: 
 buy_link: 
-started: 2025-05-15
-finished: 2025-05-26
-released: 1945
-stars: 4.5
+started: 2024-05-15
+finished: 2024-07-26
+released: 2003
+stars: 4
 goodreads_review: 
 status: Finished
 ---

@@ -5,44 +5,86 @@ layout: page
 
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
-  {% if collection and collection.size > 0 %}
+{% else %}
+  {% assign collection = site.books %}
+{% endif %}
 
-    {%- comment -%}
-    Sort by `finished` date (YYYY-MM-DD) descending.
-    Items without `finished` are appended after finished ones.
-    {%- endcomment -%}
-    {% assign finished_books = collection | where_exp: "b", "b.finished != nil and b.finished != ''" | sort: "finished" | reverse %}
-    {% assign unfinished_books = collection | where_exp: "b", "b.finished == nil or b.finished == ''" %}
+{% if collection and collection.size > 0 %}
 
-    {% assign sorted_books = finished_books | concat: unfinished_books %}
+  {%- comment -%}
+  Sort by `finished` date descending; items without `finished` appended last.
+  {%- endcomment -%}
+  {% assign finished_books = collection | where_exp: "b", "b.finished != nil and b.finished != ''" | sort: "finished" | reverse %}
+  {% assign unfinished_books = collection | where_exp: "b", "b.finished == nil or b.finished == ''" %}
+  {% assign sorted_books = finished_books | concat: unfinished_books %}
 
-    <ul>
-      {% for item in sorted_books %}
-        <figure class="cover">
-          <a class="cover-link" href="{{ item.url | relative_url }}">
-            {% if item.cover %}
-              <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
-            {% elsif item.olid %}
-              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
-            {% elsif item.isbn %}
-              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
-            {% endif %}
+  <div class="bookshelf">
+    {% for book in sorted_books %}
+      <div class="book-item">
+        {% if book.cover %}
+          <img class="book-cover" src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}" loading="lazy">
+        {% elsif book.olid %}
+          <img class="book-cover" src="https://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" alt="Cover of {{ book.title }}" loading="lazy">
+        {% elsif book.isbn %}
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" alt="Cover of {{ book.title }}" loading="lazy">
+        {% else %}
+          <div class="book-cover book-cover--placeholder" aria-hidden="true"></div>
+        {% endif %}
 
-            {% if item.status %}
-              {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-              {% assign status = item.status | downcase | strip %}
-              {% if statuses contains status %}
-                <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-              {% else %}
-                <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-              {% endif %}
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
-          </a>
-        </figure>
-      {% endfor %}
-    </ul>
+        <div class="book-meta">
+          <div class="book-title">{{ book.title }}</div>
 
-  {% endif %}
+          {% if book.author %}
+            <div class="book-author">{{ book.author }}</div>
+          {% endif %}
+
+          {% if book.status %}
+            <div class="book-status">{{ book.status }}</div>
+          {% endif %}
+
+          {% if book.stars %}
+            {%- assign rating = book.stars | times: 1.0 -%}
+            {%- assign full = rating | floor -%}
+            {%- assign frac = rating | minus: full -%}
+            {%- assign has_half = false -%}
+            {%- if frac >= 0.5 -%}{%- assign has_half = true -%}{%- endif -%}
+            {%- assign half_index = full | plus: 1 -%}
+
+            <div class="book-stars" aria-label="Rating: {{ rating }} out of 5">
+              {% for i in (1..5) %}
+                {% if i <= full %}
+                  <span class="star star--filled" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                  </span>
+                {% elsif has_half and i == half_index %}
+                  <span class="star star--half" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <defs>
+                        <clipPath id="half-clip-{{ forloop.parentloop.index }}-{{ i }}">
+                          <rect x="0" y="0" width="12" height="24"></rect>
+                        </clipPath>
+                      </defs>
+                      <path class="star-outline" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zm-10 6.11-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 3.97 4.38.38-3.32 2.88 1 4.28L12 15.35z"/>
+                      <path class="star-fill" clip-path="url(#half-clip-{{ forloop.parentloop.index }}-{{ i }})" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                  </span>
+                {% else %}
+                  <span class="star star--empty" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zm-10 6.11-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 3.97 4.38.38-3.32 2.88 1 4.28L12 15.35z"/>
+                    </svg>
+                  </span>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+{% else %}
+  <p>No books found.</p>
 {% endif %}
