@@ -18,3 +18,67 @@ body.dark-mode .only-dark { display: block; }
 html.dark .only-light,
 body.dark .only-light,
 body.dark-mode .only-light { display: none; }
+
+/******************************************************************************
+ * Bookshelf (force-loaded via custom.scss for GitHub Pages consistency)
+ ******************************************************************************/
+
+.bookshelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.book-item {
+  text-align: center;
+}
+
+.book-cover {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover--placeholder {
+  width: 150px;
+  height: 225px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.book-meta { margin-top: 0.5rem; }
+
+.book-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.book-author { font-size: 0.9rem; color: #666; }
+
+.book-status { font-size: 0.8rem; color: #888; font-style: italic; }
+
+.book-stars {
+  margin-top: 0.35rem;
+  display: inline-flex;
+  gap: 0.1rem;
+  line-height: 1;
+  font-size: 0;
+}
+
+.book-stars .star-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  fill: currentColor;
+}
+
+.book-stars .star--filled { color: #f5b301; }
+.book-stars .star--empty { color: rgba(0, 0, 0, 0.25); }
+
+.book-stars .star--half { color: rgba(0, 0, 0, 0.25); }
+.book-stars .star--half .star-fill { fill: #f5b301; }
+.book-stars .star--half .star-outline { fill: currentColor; }
