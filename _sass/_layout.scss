@@ -114,11 +114,12 @@ body.layout-book-review .footer {
   display: inline-flex;
   gap: 0.1rem;
   line-height: 1;
+  font-size: 0; /* prevents any inherited font scaling affecting inline elements */
 }
 
 .book-stars .star-icon {
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 16px;
+  height: 16px;
   display: block;
   fill: currentColor;
 }

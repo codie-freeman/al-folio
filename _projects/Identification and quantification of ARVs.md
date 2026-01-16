@@ -6,6 +6,10 @@ img: /assets/img/arv-hplc-ms-cover.png
 importance: 1
 category: work
 ---
+## Full report
+[Download the full PDF report]({{ "/assets/pdf/ARV-HPLC-MS-REPORT.pdf" | relative_url }})
+
+---
 
 ## At a glance
 - **Outcome:** Identified ARVs in an unknown sample + quantified those above LOQ  
@@ -109,6 +113,4 @@ Only Lopinavir and Ritonavir exceeded LOQ thresholds:
 
 ---
 
-## Full report
-[Download the full PDF report]({{ "/assets/pdf/ARV-HPLC-MS-REPORT.pdf" | relative_url }})
 

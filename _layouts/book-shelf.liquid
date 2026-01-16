@@ -54,13 +54,13 @@ layout: page
               {% for i in (1..5) %}
                 {% if i <= full %}
                   <span class="star star--filled" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" class="star-icon">
+                    <svg viewBox="0 0 24 24" class="star-icon" width="16" height="16" focusable="false" aria-hidden="true">
                       <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
                     </svg>
                   </span>
                 {% elsif has_half and i == half_index %}
                   <span class="star star--half" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" class="star-icon">
+                    <svg viewBox="0 0 24 24" class="star-icon" width="16" height="16" focusable="false" aria-hidden="true">
                       <defs>
                         <clipPath id="half-clip-{{ forloop.parentloop.index }}-{{ i }}">
                           <rect x="0" y="0" width="12" height="24"></rect>
@@ -72,7 +72,7 @@ layout: page
                   </span>
                 {% else %}
                   <span class="star star--empty" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" class="star-icon">
+                    <svg viewBox="0 0 24 24" class="star-icon" width="16" height="16" focusable="false" aria-hidden="true">
                       <path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zm-10 6.11-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 3.97 4.38.38-3.32 2.88 1 4.28L12 15.35z"/>
                     </svg>
                   </span>
