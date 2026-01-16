@@ -11,6 +11,8 @@ category: work
 - [Download the poster (PDF)]({{ "/assets/pdf/SATRA-POSTER.pdf" | relative_url }})
 - [Download the extended report (PDF)]({{ "/assets/pdf/SATRA-REPORT.pdf" | relative_url }})
 
+> **Note:** The extended report was **not required** for the assignment. We chose to produce it (with approval from the module supervisors) to strengthen the scientific rationale behind the poster and provide full references without overloading the layout.
+
 ---
 
 ## At a glance
@@ -73,8 +75,9 @@ Our group explored its design rationale, activation pathway, toxicity profile, a
 ---
 
 ### 3) Toxicity profile (vs cisplatin)
+
 | Feature | Cisplatin | Satraplatin |
-|---|---|---|
+|:--|:--|:--|
 | Nephrotoxicity | High | Low |
 | Neurotoxicity | Frequent | Mild |
 | Ototoxicity | Moderate–severe | Minimal |
