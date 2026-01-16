@@ -48,16 +48,31 @@ ninja.data = [{
             window.location.href = "/blog/2025/Test/";
           
         },
-      },{id: "books-animal-farm",
+      },{id: "books-and-then-there-were-none",
+          title: 'And Then There Were None',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/And%20then%20there%20were%20none/";
+            },},{id: "books-animal-farm",
           title: 'Animal Farm',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Animal%20Farm/";
+            },},{id: "books-complications-a-surgeon-39-s-notes-on-an-imperfect-science",
+          title: 'Complications - a surgeon&amp;#39;s notes on an imperfect science',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Complications%20:%20a%20surgeon's%20notes%20on%20an%20imperfect%20science/";
             },},{id: "books-im-glad-my-mom-died",
           title: 'Im Glad My Mom Died',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Im%20Glad%20My%20Mom%20Died/";
+            },},{id: "books-lord-of-the-flies",
+          title: 'Lord of the Flies',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Lord%20of%20the%20flies/";
             },},{id: "books-the-bullet-that-missed",
           title: 'The Bullet That Missed',
           description: "",
@@ -68,6 +83,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Last%20Devil%20to%20Die/";
+            },},{id: "books-the-luckiest-guy-alive",
+          title: 'The Luckiest Guy Alive',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Luckiest%20Guy%20Alive/";
             },},{id: "books-the-man-who-died-twice",
           title: 'The Man Who Died Twice',
           description: "",
@@ -83,11 +103,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/TheThursdayMurderClub/";
+            },},{id: "books-widow-basquiat",
+          title: 'Widow Basquiat',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Widow%20Basquiat/";
+            },},{id: "books-either-or",
+          title: 'Either/or',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/or/";
             },},{id: "books-what-if",
           title: 'What If?',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/What%20If?/";
+              window.location.href = "/books/what%20if/";
+            },},{id: "projects-identification-amp-quantification-of-antiretroviral-drugs-using-hplc-ms",
+          title: 'Identification &amp;amp; Quantification of Antiretroviral Drugs using HPLC‑MS',
+          description: "Second‑year pharmaceutical chemistry project (83%)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Identification%20and%20quantification%20of%20ARVs/";
             },},{
         id: 'social-email',
         title: 'email',
