@@ -37,15 +37,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-test",
+            },{id: "post-media-i-consumed-this-week",
         
-          title: "Test",
+          title: "Media I Consumed This Week",
         
-        description: "Test",
+        description: "A loose collection of things that made me think about value, effort, and why we pay attention to certain ideas over others.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Test/";
+            window.location.href = "/blog/2026/Test/";
           
         },
       },{id: "books-and-then-there-were-none",
