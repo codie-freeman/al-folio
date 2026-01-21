@@ -136,6 +136,13 @@ ninja.data = [{
           window.open("mailto:%63%6F%6E%74%61%63%74@%63%6F%64%69%65%66%72%65%65%6D%61%6E.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/codie-freeman", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
