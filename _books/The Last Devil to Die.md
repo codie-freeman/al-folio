@@ -11,8 +11,8 @@ buy_link:
 started: 2025-12-25
 finished: 
 released: 2023
-stars: 
+stars: 4
 goodreads_review: 
-status: Reading
+status: Finished
 ---
 
