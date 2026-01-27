@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A collecting of projects completed whilst at University and on my Placement Year",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -143,6 +143,11 @@ ninja.data = [{
           description: "Second‑year pharmaceutical chemistry project (83%)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Identification%20and%20quantification%20of%20ARVs/";
+            },},{id: "projects-inverse-gas-chromatography",
+          title: 'Inverse Gas Chromatography',
+          description: "A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data. (WIP)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Inverse%20Gas%20Chromatograpghy/";
             },},{id: "projects-satraplatin-as-an-orally-active-pt-iv-prodrug",
           title: 'Satraplatin as an Orally Active Pt(IV) Prodrug',
           description: "Pharmaceutical Chemistry group poster project (70%)",
