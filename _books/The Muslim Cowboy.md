@@ -2,7 +2,7 @@
 layout: book-review
 title: The Muslim Cowboy
 author: Bruce Omar Yates
-cover: 
+cover: The Muslim Cowboy.jpg
 olid: OL53271372M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

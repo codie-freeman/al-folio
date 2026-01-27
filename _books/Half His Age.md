@@ -2,7 +2,7 @@
 layout: book-review
 title: Half His Age
 author: Jennette McCurdy
-cover: 
+cover: Half His Age.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780385697828 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

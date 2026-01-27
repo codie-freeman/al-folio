@@ -8,10 +8,10 @@ isbn: 0099560437 # use ISBN to fetch cover (if no `olid` is provided, dashes are
 categories:
 tags: 
 buy_link: 
-started: 2023-11-25
+started: 2023-12-25
 finished: 
 released: 2008
-stars: 3.5
+stars: 4.5
 goodreads_review: 
 status: Finished
 ---

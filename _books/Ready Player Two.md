@@ -8,10 +8,10 @@ isbn: 8418037083 # use ISBN to fetch cover (if no `olid` is provided, dashes are
 categories:
 tags: 
 buy_link: 
-started: 2023-12-25
+started: 2023-11-25
 finished: 
 released: 2019
-stars: 5
+stars: 3.5
 goodreads_review: 
 status: Finished
 ---
