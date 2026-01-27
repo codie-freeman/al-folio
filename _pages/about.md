@@ -21,22 +21,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m **Codie Freeman** — a `BSc Pharmaceutical Chemistry student` interested in how science connects to **strategy**, **operations**, and the **business side** of drug development. I’m currently on placement at <a href='https://www.resolian.com/'>Resolian</a>, gaining hands‑on experience in a `GMP‑compliant` environment and learning how data, documentation, and decision‑making come together in real projects.
+My name is **Codie**, I'm a `BSc Pharmaceutical Chemistry student` with an interest in the full picture of chemistry: **lab work**, **computational tools**, and the **operational/commercial side** that keeps real projects moving.  
+
+I’m currently on placement at <a href='https://www.resolian.com/'>Resolian</a>, working in a `GMP‑compliant` environment. Currently working on a range of sponsor projects and an independent case study on how particle size affects the surface energy of sucrose. It’s given me a clearer sense of how data, documentation, and practical decision‑making fit together in day‑to‑day scientific work, and it’s also pushed me toward the computational side of chemistry.  
+
+I’m planning to take the optional `Python, AI & LLMs for Chemistry` module and I’m aiming for a computational chemistry‑focused final‑year project — building on the scientific Python and reproducible workflow skills I’m developing alongside my placement.
 
 ---
 
 ### Background
 
-Before moving into pharma, I spent several years as a `senior manager` in a busy **£3M‑a‑year hospitality unit**, leading large teams in a fast‑moving, regulated setting. It was a role I genuinely enjoyed - a mix of people management, problem‑solving, and keeping things steady when it all gets a bit chaotic.
+Before securing my placement in a CRO, I spent several years as a `senior manager` in a busy **£3M‑a‑year hospitality unit**, leading large teams in a fast‑moving, regulated setting. It was a role I genuinely enjoyed. A mix of people management, problem‑solving, and keeping things steady when it all gets a bit chaotic.
+
+I gained hands on experience managing regulatory visits from E`nvironmental Health Officers`, enforcing **SOPs** as well as lots of business knowledge tracking **KPIs**, managing stock, **SWOT** analysis and completing **business reviews**.
 
 ---
 
 ### Outside the Lab
 
-I’m a `STEM Ambassador` and a long‑time `graphic design` hobbyist. I enjoy clean visuals, clear communication, and making technical ideas easier to understand — whether through outreach or design.
+I’m a `STEM Ambassador` and a long‑time `graphic design` hobbyist. I enjoy clean visuals, clear communication, and making technical ideas easier to understand whether thats through outreach or design.
 
----
 
-### Looking Ahead
-
-I’m still exploring where I want to land long‑term. I enjoy wet based chemistry, but I’m also drawn to roles that sit closer to `operations`, and the `commercial` side of the industry. What matters most to me is working somewhere that blends **science, clarity, and impact**.

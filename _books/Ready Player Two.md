@@ -9,7 +9,7 @@ categories:
 tags: 
 buy_link: 
 started: 2023-11-25
-finished: 
+finished: 2023-11-25
 released: 2019
 stars: 3.5
 goodreads_review: 
