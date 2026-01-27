@@ -63,6 +63,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Complications%20:%20a%20surgeon's%20notes%20on%20an%20imperfect%20science/";
+            },},{id: "books-half-his-age",
+          title: 'Half His Age',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Half%20His%20Age/";
             },},{id: "books-im-glad-my-mom-died",
           title: 'Im Glad My Mom Died',
           description: "",
@@ -73,6 +78,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Lord%20of%20the%20flies/";
+            },},{id: "books-ready-player-one",
+          title: 'Ready Player One',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Ready%20Player%20One/";
+            },},{id: "books-ready-player-two",
+          title: 'Ready Player Two',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Ready%20Player%20Two/";
             },},{id: "books-the-bullet-that-missed",
           title: 'The Bullet That Missed',
           description: "",
@@ -93,6 +108,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Man%20Who%20Died%20Twice/";
+            },},{id: "books-the-muslim-cowboy",
+          title: 'The Muslim Cowboy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Muslim%20Cowboy/";
             },},{id: "books-the-prison-doctor",
           title: 'The Prison Doctor',
           description: "",
