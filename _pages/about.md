@@ -33,7 +33,7 @@ I’m planning to take the optional `Python, AI & LLMs for Chemistry` module and
 
 Before securing my placement in a CRO, I spent several years as a `senior manager` in a busy **£3M‑a‑year hospitality unit**, leading large teams in a fast‑moving, regulated setting. It was a role I genuinely enjoyed. A mix of people management, problem‑solving, and keeping things steady when it all gets a bit chaotic.
 
-I gained hands on experience managing regulatory visits from E`nvironmental Health Officers`, enforcing **SOPs** as well as lots of business knowledge tracking **KPIs**, managing stock, **SWOT** analysis and completing **business reviews**.
+I gained hands on experience managing regulatory visits from `Environmental Health Officers`, enforcing **SOPs** as well as lots of business knowledge tracking **KPIs**, managing stock, **SWOT** analysis and completing **business reviews**.
 
 ---
 
