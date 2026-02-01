@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collecting of projects completed whilst at University and on my Placement Year
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [Work, University]
 horizontal: false
 ---
 
