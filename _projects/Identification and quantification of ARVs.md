@@ -3,8 +3,8 @@ layout: page
 title: Identification & Quantification of Antiretroviral Drugs using HPLC‑MS
 description: Second‑year pharmaceutical chemistry project (83%)
 img: /assets/img/arv-hplc-ms-cover.png
-importance: 1
-category: work
+importance: 2
+category: University
 ---
 ## Full report
 [Download the full PDF report]({{ "/assets/pdf/ARV-HPLC-MS-REPORT.pdf" | relative_url }})

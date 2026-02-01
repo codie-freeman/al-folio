@@ -3,8 +3,8 @@ layout: page
 title: Satraplatin as an Orally Active Pt(IV) Prodrug
 description: Pharmaceutical Chemistry group poster project (70%)
 img: /assets/img/satra.png
-importance: 2
-category: work
+importance: 3
+category: University
 ---
 
 ## Full report

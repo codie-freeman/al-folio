@@ -4,7 +4,7 @@ title: Inverse Gas Chromatography
 description: A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data. (WIP)
 img: /assets/img/igc-drawer.jpg
 importance: 1
-category: work
+category: Work
 ---
 
 # IGC‑SEA Toolkit (Work in Progress)
