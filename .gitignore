@@ -1,14 +1,30 @@
+# Build output
 _site
-.bundle
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.DS_store
+
+# Ruby
+.bundle
 .ruby-version
-.tweet-cache
 Gemfile.lock
-assets/libs/
-node_modules/
 vendor
-.idea
+
+# Node
+node_modules/
+
+# Python
 .venv
+
+# IDE
+.idea
+.ruby-lsp
+
+# macOS
+.DS_Store
+
+# Project-specific
+.tweet-cache
+assets/libs/
+lighthouse_results/
+readme_preview/

@@ -9,10 +9,10 @@ categories:
 tags: 
 buy_link: 
 started: 2026-01-27
-finished: 2026-01-29
+finished: 2026-02-03
 released: 2024
-stars: 
+stars: 3.5
 goodreads_review: 
-status: Started
+status: Finished
 ---
 
