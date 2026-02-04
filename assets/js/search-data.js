@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-media-i-consumed-this-week",
+            },{id: "post-an-experimental-wake-up-call",
+        
+          title: "An Experimental Wake Up Call",
+        
+        description: "What Magnesium Stearate Taught Me About Theory vs Practice",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/An-Experimental-Wake-Up-Call/";
+          
+        },
+      },{id: "post-media-i-consumed-this-week",
         
           title: "Media I Consumed This Week",
         
@@ -45,7 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/Test/";
+            window.location.href = "/blog/2026/Media-I-Consumed-This-Week/";
           
         },
       },{id: "books-and-then-there-were-none",
