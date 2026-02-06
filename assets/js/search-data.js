@@ -129,6 +129,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Prison%20Doctor/";
+            },},{id: "books-the-hundred-page-machine-learning-book",
+          title: 'The Hundred-Page Machine Learning Book',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20hundred-page%20machine%20learning%20book/";
             },},{id: "books-the-thursday-murder-club",
           title: 'The Thursday Murder Club',
           description: "",
