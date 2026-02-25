@@ -37,15 +37,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-how-i-approached-my-cv",
         
-          title: "",
+          title: "How I Approached My CV",
         
-        description: "",
+        description: "How I developed my CV as an undergraduate Chemistry student to successfully secure a placement year role and prepare for a difficult graduate market.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-02-25-How-I-approached-my-CV/";
+            window.location.href = "/blog/2026/How-I-approached-my-CV/";
           
         },
       },{id: "post-an-experimental-wake-up-call",
