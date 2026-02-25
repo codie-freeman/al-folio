@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-an-experimental-wake-up-call",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-02-25-How-I-approached-my-CV/";
+          
+        },
+      },{id: "post-an-experimental-wake-up-call",
         
           title: "An Experimental Wake Up Call",
         
