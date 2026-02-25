@@ -1,20 +1,17 @@
 ---
 layout: post
 title: How I Approached My CV
-date: 2026-02-25 12:30:00
-description: How I developed my CV as an undergraduate Chemistry student to 
-successfully secure a placement year role and prepare for a difficult graduate market.
+date: 2026-02-24 21:30:00
+description: How I developed my CV as an undergraduate Chemistry student to successfully secure a placement year role and prepare for a difficult graduate market.
 tags:
 categories:
 ---
 
-## Curriculum Vitae
-
 ### Noisy Information
 
-There seems to be an endless supply of people wanting to give out tips and tricksfor CVs, but the majority of it isn't helpful. The information out there is noisy, over-saturated, and usually comes from people who have made posting on LinkedIn their biggest personality trait.
+There seems to be an endless supply of people wanting to give out tips and tricks for CVs, but the majority of it isn't helpful. The information out there is noisy, over-saturated, and usually comes from people who have made posting on LinkedIn their biggest personality trait.
 
-A lot of so-called advice is little more than an attempt to sell something to peoplewho are desperate in a difficult job market. Templates, courses, "insider secrets" claiming to have everything you need to land that dream role. For the large majority of people, that just isn't the case. The fundamentals of a strong CV aren't a secret, and you don't need to pay for them.
+A lot of so-called advice is little more than an attempt to sell something to people who are desperate in a difficult job market. Templates, courses, "insider secrets" claiming to have everything you need to land that dream role. For the large majority of people, that just isn't the case. The fundamentals of a strong CV aren't a secret, and you don't need to pay for them.
 
 ---
 
@@ -64,7 +61,7 @@ I also kept the structure modular deliberately. The core content stays the same,
 
 The goal isn't a CV that works for everyone. It's one that works well for the roles you actually want.
 
-[Codie Freeman CV (PDF)](<../assets/pdf/Codie Freeman CV.pdf>)
+[Codie Freeman CV (PDF)](</assets/pdf/Codie Freeman CV.pdf>)
 
 ---
 
