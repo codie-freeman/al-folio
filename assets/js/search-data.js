@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A collecting of projects completed whilst at University and on my Placement Year",
+          description: "A collection of projects spanning analytical chemistry, pharmaceutical science, and scientific software.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -70,7 +70,12 @@ ninja.data = [{
             window.location.href = "/blog/2026/Media-I-Consumed-This-Week/";
           
         },
-      },{id: "books-and-then-there-were-none",
+      },{id: "books-a-single-man",
+          title: 'A Single Man',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/A%20Single%20Man/";
+            },},{id: "books-and-then-there-were-none",
           title: 'And Then There Were None',
           description: "",
           section: "Books",handler: () => {
@@ -115,6 +120,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Bullet%20That%20Missed/";
+            },},{id: "books-the-heart-in-winter",
+          title: 'The Heart in Winter',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Heart%20in%20Winter/";
             },},{id: "books-the-last-devil-to-die",
           title: 'The Last Devil to Die',
           description: "",
@@ -150,6 +160,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/TheThursdayMurderClub/";
+            },},{id: "books-rules-are-less-important-than-kindness",
+          title: 'Rules Are Less Important Than Kindness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/There%20Are%20Places%20in%20the%20World%20Where%20Rules%20Are%20Less%20Important%20Than%20Kindness/";
             },},{id: "books-widow-basquiat",
           title: 'Widow Basquiat',
           description: "",
@@ -167,19 +182,24 @@ ninja.data = [{
               window.location.href = "/books/what%20if/";
             },},{id: "projects-identification-amp-quantification-of-antiretroviral-drugs-using-hplc-ms",
           title: 'Identification &amp;amp; Quantification of Antiretroviral Drugs using HPLC‑MS',
-          description: "Second‑year pharmaceutical chemistry project (83%)",
+          description: "Identification and quantification of antiretroviral drugs in an unknown sample using HPLC‑MS.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Identification%20and%20quantification%20of%20ARVs/";
             },},{id: "projects-inverse-gas-chromatography",
           title: 'Inverse Gas Chromatography',
-          description: "A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data. (WIP)",
+          description: "A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Inverse%20Gas%20Chromatograpghy/";
             },},{id: "projects-satraplatin-as-an-orally-active-pt-iv-prodrug",
           title: 'Satraplatin as an Orally Active Pt(IV) Prodrug',
-          description: "Pharmaceutical Chemistry group poster project (70%)",
+          description: "Scientific poster examining Satraplatin&#39;s structure, mechanism, and clinical context as an orally active Pt(IV) prodrug.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Satraplatin%20as%20an%20Orally%20Active%20Pt(IV)%20Prodrug/";
+            },},{id: "projects-sucrose-project",
+          title: 'Sucrose Project',
+          description: "Coming soon.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Sucrose/";
             },},{
         id: 'social-email',
         title: 'email',
