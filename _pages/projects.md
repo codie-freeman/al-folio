@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collecting of projects completed whilst at University and on my Placement Year
+description: A collection of projects spanning analytical chemistry, pharmaceutical science, and scientific software.
 nav: true
 nav_order: 3
-display_categories: [Work, University]
 horizontal: false
 ---
 

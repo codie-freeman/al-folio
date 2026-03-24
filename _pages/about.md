@@ -8,37 +8,33 @@ profile:
   align: right
   image: lightprofilepic.jpg
   image_dark: darkprofilepic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
 
-
-selected_papers: false # was true; disable because jekyll-scholar is removed
-social: false # includes social icons at the bottom of the page
-
+selected_papers: false
+social: false
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-My name is **Codie**, I'm a `BSc Pharmaceutical Chemistry student` with an interest in the full picture of chemistry: **lab work**, **computational tools**, and the **operational/commercial side** that keeps real projects moving.  
+My name is **Codie**, a `BSc Pharmaceutical Chemistry` student at the University of Reading  with a year of industrial experience at <a href='https://www.resolian.com/'>Resolian Analytical  Sciences</a>, a `GMP-regulated` contract research organisation based in Sandwich, Kent.
 
-I’m currently on placement at <a href='https://www.resolian.com/'>Resolian</a>, working in a `GMP‑compliant` environment. Currently working on a range of sponsor projects and an independent case study on how particle size affects the surface energy of sucrose. It’s given me a clearer sense of how data, documentation, and practical decision‑making fit together in day‑to‑day scientific work, and it’s also pushed me toward the computational side of chemistry.  
+As a `Student Scientist`, I gained hands-on experience across a broad portfolio of solid-state analytical techniques including `iGC-SEA`, `PXRD`, `DSC`, `DVS`, `TGA` and `SEM`, contributing to pharmaceutical sponsor projects alongside self-directed case studies. Authoring formal client reports and maintaining compliance with **GMP** and **ALCOA++** data integrity standards gave me a practical understanding of how documentation and data quality sit at the centre of regulated scientific work.
 
-I’m planning to take the optional `Python, AI & LLMs for Chemistry` module and I’m aiming for a computational chemistry‑focused final‑year project — building on the scientific Python and reproducible workflow skills I’m developing alongside my placement.
+An independent case study investigating the surface energy of sucrose across modified particle sizes was submitted as a poster to the **Analytical Research Forum 2026**, with findings suggesting that processing route governs surface energy character more strongly than particle size alone.
+
+Alongside bench work, I have developed practical experience in `Python` for data analysis and visualisation, and I am working towards a computationally focused final-year project that builds on skills developed alongside my placement.
 
 ---
 
 ### Background
 
-Before securing my placement in a CRO, I spent several years as a `senior manager` in a busy **£3M‑a‑year hospitality unit**, leading large teams in a fast‑moving, regulated setting. It was a role I genuinely enjoyed. A mix of people management, problem‑solving, and keeping things steady when it all gets a bit chaotic.
-
-I gained hands on experience managing regulatory visits from `Environmental Health Officers`, enforcing **SOPs** as well as lots of business knowledge tracking **KPIs**, managing stock, **SWOT** analysis and completing **business reviews**.
+Whilst at university I spent several years as a `Shift Manager` at a **£3M-a-year** hospitality site, leading teams of 20+ people in a busy, compliance-driven environment. The role covered regulatory inspections, SOP enforcement and day-to-day business performance, including tracking KPIs, managing stock and contributing to internal audits. It is a background that complements laboratory work well; commercial awareness and operational discipline are more transferable than people tend to assume.
 
 ---
 
 ### Outside the Lab
 
-I’m a `STEM Ambassador` and a long‑time `graphic design` hobbyist. I enjoy clean visuals, clear communication, and making technical ideas easier to understand whether thats through outreach or design.
-
-
+I am a `STEM Ambassador` through the I'm a Scientist programme, supporting student engagement in chemistry and pharmaceutical sciences through schools outreach. I also have a long-standing interest in `graphic design`, and find the overlap between visual communication and technical work genuinely useful, whether that is putting together a conference poster or laying out a report clearly.

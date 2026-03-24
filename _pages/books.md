@@ -6,9 +6,9 @@ nav: false
 collection: books
 ---
 
-> ““Most people never get to see how brilliant they can be. They don’t find teachers that believe in them. They get convinced they’re stupid.”
+> "I see it all perfectly; there are two possible situations — one can either do this or that. My honest opinion is this: do it or do not do it — you will regret both."
 >
 >
-> ―- Good Will Hunting (1997)
+> — Søren Kierkegaard, Either/Or
 
 ## Books that I am reading, have read, or will read
