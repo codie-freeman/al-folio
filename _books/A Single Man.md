@@ -13,7 +13,7 @@ finished: 2026-27-03
 released: 1964
 stars: 3
 goodreads_review: 
-status: Reading
+status: Finished
 ---
 
 
