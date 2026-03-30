@@ -11,7 +11,7 @@ buy_link:
 started: 2025-01-01
 finished: 2025-01-10
 released: 1939
-stars: 4
+stars: 3
 goodreads_review: 
 status: Finished
 ---

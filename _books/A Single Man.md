@@ -9,9 +9,9 @@ categories:
 tags: 
 buy_link: 
 started: 2026-03-03
-finished: 2026-03-03
+finished: 2026-27-03
 released: 1964
-stars: 
+stars: 3
 goodreads_review: 
 status: Reading
 ---

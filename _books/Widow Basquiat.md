@@ -11,7 +11,7 @@ buy_link:
 started: 2024-01-15
 finished: 2024-02-26
 released: 2014
-stars: 3
+stars: 2.5
 goodreads_review: 
 status: Finished
 ---
