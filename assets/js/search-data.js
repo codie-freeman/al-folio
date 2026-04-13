@@ -37,11 +37,22 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-how-i-approached-my-cv",
+            },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
         
-          title: "How I Approached My CV",
+          title: "My self initiated Python and AI for Chemistry learning",
         
-        description: "How I developed my CV as an undergraduate Chemistry student to successfully secure a placement year role and prepare for a difficult graduate market.",
+        description: "What I have been working on for my personal upskilling in AI/LLM and Python tailored for Chemistry.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/My-Self-Initiated-Python-and-AI-for-Chemistry-Learning/";
+          
+        },
+      },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
+        
+          title: "My Self-Initiated Python and AI for Chemistry Learning",
+        
+        description: "What I have been working on for my personal upskilling in Python and AI tailored for chemistry, and why I found each resource helpful.",
         section: "Posts",
         handler: () => {
           
@@ -195,11 +206,11 @@ ninja.data = [{
           description: "Scientific poster examining Satraplatin&#39;s structure, mechanism, and clinical context as an orally active Pt(IV) prodrug.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Satraplatin%20as%20an%20Orally%20Active%20Pt(IV)%20Prodrug/";
-            },},{id: "projects-sucrose-project",
-          title: 'Sucrose Project',
-          description: "Coming soon.",
+            },},{id: "projects-effect-of-particle-size-reduction-on-the-surface-energy-of-sucrose",
+          title: 'Effect of Particle Size Reduction on the Surface Energy of Sucrose',
+          description: "Investigating how processing-induced particle size reduction affects the surface energy of sucrose, characterised using iGC-SEA, PXRD, SEM, and BET nitrogen adsorption.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Sucrose/";
+              window.location.href = "/projects/Sucrose%20Poster/";
             },},{
         id: 'social-email',
         title: 'email',
