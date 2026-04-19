@@ -9,11 +9,11 @@ categories:
 tags: 
 buy_link: 
 started: 2024-01-01
-finished: 
+finished: 2025-01-01
 released: 1843
 stars: 
 goodreads_review: 
-status: Will return to
+status: Read
 ---
 
 
