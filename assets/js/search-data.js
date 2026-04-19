@@ -39,20 +39,20 @@ ninja.data = [{
               },
             },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
         
-          title: "My self initiated Python and AI for Chemistry learning",
+          title: "My Self-Initiated Python and AI for Chemistry Learning",
         
-        description: "What I have been working on for my personal upskilling in AI/LLM and Python tailored for Chemistry.",
+        description: "What I have been working on for my personal upskilling in Python and AI tailored for chemistry, and why I found each resource helpful.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2026/My-Self-Initiated-Python-and-AI-for-Chemistry-Learning/";
           
         },
-      },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
+      },{id: "post-how-i-approached-my-cv",
         
-          title: "My Self-Initiated Python and AI for Chemistry Learning",
+          title: "How I Approached My CV",
         
-        description: "What I have been working on for my personal upskilling in Python and AI tailored for chemistry, and why I found each resource helpful.",
+        description: "How I developed my CV as an undergraduate Chemistry student to successfully secure a placement year role and prepare for a difficult graduate market.",
         section: "Posts",
         handler: () => {
           
