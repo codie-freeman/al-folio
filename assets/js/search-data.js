@@ -81,7 +81,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/Media-I-Consumed-This-Week/";
           
         },
-      },{id: "books-a-single-man",
+      },{id: "books-1984",
+          title: '1984',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1984/";
+            },},{id: "books-short-history-of-nearly-everything",
+          title: 'Short History Of Nearly Everything',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/A%20Short%20History/";
+            },},{id: "books-a-single-man",
           title: 'A Single Man',
           description: "",
           section: "Books",handler: () => {
@@ -111,11 +121,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Im%20Glad%20My%20Mom%20Died/";
+            },},{id: "books-the-impossible-fortune",
+          title: 'The Impossible Fortune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Impossible%20Fortune/";
             },},{id: "books-lord-of-the-flies",
           title: 'Lord of the Flies',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Lord%20of%20the%20flies/";
+            },},{id: "books-mrs-jekyll",
+          title: 'Mrs Jekyll',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Mrs%20Jekyll/";
             },},{id: "books-ready-player-one",
           title: 'Ready Player One',
           description: "",
@@ -136,6 +156,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Heart%20in%20Winter/";
+            },},{id: "books-the-heart-is-a-lonely-hunter",
+          title: 'The Heart is a Lonely Hunter',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Heart%20is%20a%20Lonely%20Hunter/";
             },},{id: "books-the-last-devil-to-die",
           title: 'The Last Devil to Die',
           description: "",
