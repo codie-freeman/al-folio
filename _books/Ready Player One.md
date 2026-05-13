@@ -13,6 +13,6 @@ finished: 2023-11-25
 released: 2008
 stars: 4.5
 goodreads_review: 
-status: Finished
+status: Read
 ---
 

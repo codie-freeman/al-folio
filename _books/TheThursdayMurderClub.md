@@ -13,6 +13,6 @@ finished: 2025-09-10
 released: 2020
 stars: 4
 goodreads_review: 
-status: Finished
+status: Read
 ---
 

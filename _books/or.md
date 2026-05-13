@@ -11,7 +11,7 @@ buy_link:
 started: 2024-01-01
 finished: 2025-01-01
 released: 1843
-stars: 
+stars: 3.5
 goodreads_review: 
 status: Read
 ---

@@ -13,7 +13,7 @@ finished: 2024-03-26
 released: 1954
 stars: 3.5
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 

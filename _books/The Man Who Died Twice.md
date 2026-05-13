@@ -13,5 +13,5 @@ finished: 2025-09-18
 released: 2021
 stars: 4.5
 goodreads_review: 
-status: Finished
+status: Read
 ---

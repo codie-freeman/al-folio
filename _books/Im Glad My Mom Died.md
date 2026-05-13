@@ -13,7 +13,7 @@ finished: 2025-04-22
 released: 2022
 stars: 5
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 As a fan of biographies as well as growing up watching shows like iCarly, this book was one I wanted to read as soon as I heard it was being released. 

@@ -13,7 +13,7 @@ finished: 2024-07-26
 released: 2003
 stars: 4
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 A Book far more famous and reviewed than anything I could offer to state about. Unbelievably still relevant in today climate some 80 years after its original publication. Very easy read and can easily see how it is a revered classic.

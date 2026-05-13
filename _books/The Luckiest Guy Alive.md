@@ -13,7 +13,7 @@ finished: 2025-01-10
 released: 1939
 stars: 3
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 

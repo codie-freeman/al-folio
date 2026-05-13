@@ -13,7 +13,7 @@ finished: 2025-02-10
 released: 1980
 stars: 3.5
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 

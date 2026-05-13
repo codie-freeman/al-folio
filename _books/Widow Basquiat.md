@@ -13,7 +13,7 @@ finished: 2024-02-26
 released: 2014
 stars: 2.5
 goodreads_review: 
-status: Finished
+status: Read
 ---
 
 

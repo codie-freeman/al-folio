@@ -13,5 +13,5 @@ finished: 2026-01-26
 released: 2023
 stars: 4
 goodreads_review: 
-status: Finished
+status: Read
 ---
