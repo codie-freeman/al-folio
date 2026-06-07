@@ -96,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/A%20Single%20Man/";
+            },},{id: "books-american-kingpin",
+          title: 'American Kingpin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/American%20Kingpin/";
             },},{id: "books-and-then-there-were-none",
           title: 'And Then There Were None',
           description: "",
@@ -106,11 +111,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Animal%20Farm/";
+            },},{id: "books-clock-without-hands",
+          title: 'Clock Without Hands',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Clock%20Without%20Hands/";
             },},{id: "books-complications-a-surgeon-39-s-notes-on-an-imperfect-science",
           title: 'Complications - a surgeon&amp;#39;s notes on an imperfect science',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Complications%20:%20a%20surgeon's%20notes%20on%20an%20imperfect%20science/";
+            },},{id: "books-fatale",
+          title: 'Fatale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Fatale/";
             },},{id: "books-half-his-age",
           title: 'Half His Age',
           description: "",
@@ -136,6 +151,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Mrs%20Jekyll/";
+            },},{id: "books-nada",
+          title: 'Nada',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Nada/";
             },},{id: "books-ready-player-one",
           title: 'Ready Player One',
           description: "",
@@ -186,6 +206,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/The%20Prison%20Doctor/";
+            },},{id: "books-the-bell-jar",
+          title: 'The Bell Jar',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20bell%20jar/";
             },},{id: "books-the-hundred-page-machine-learning-book",
           title: 'The Hundred-Page Machine Learning Book',
           description: "",
