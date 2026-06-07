@@ -2,7 +2,7 @@
 layout: book-review
 title: Lord of the Flies
 author: William Golding
-cover: 
+cover: assets/img/book_covers/Lord of the Flies.jpg
 olid: OL43025675M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

@@ -2,7 +2,7 @@
 layout: book-review
 title: The Heart is a Lonely Hunter
 author: Carson McCullers
-cover: 
+cover: assets/img/book_covers/The Heart is a Lonely Hunter.jpg
 olid: OL19819448M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0395079780 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

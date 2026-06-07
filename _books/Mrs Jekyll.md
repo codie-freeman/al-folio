@@ -11,7 +11,7 @@ buy_link:
 started: 2026-05-04
 finished: 2026-05-10
 released: 2024
-stars: 3
+stars: 2.5
 goodreads_review: 
 status: Read
 ---

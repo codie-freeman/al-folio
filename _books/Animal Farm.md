@@ -2,7 +2,7 @@
 layout: book-review
 title: Animal Farm
 author: George Orwell
-cover: 
+cover: assets/img/book_covers/Animal farm.jpg
 olid: OL39803669M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:
