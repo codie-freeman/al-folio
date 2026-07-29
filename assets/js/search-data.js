@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
+            },{id: "post-the-experience-of-my-placement-year",
+        
+          title: "The Experience of my Placement Year",
+        
+        description: "How I applied for, landed, and made the most of a 13-month industrial placement, and what I&#39;d tell my past self before starting the process.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/The-Experience-of-my-Placement-Year/";
+          
+        },
+      },{id: "post-my-self-initiated-python-and-ai-for-chemistry-learning",
         
           title: "My Self-Initiated Python and AI for Chemistry Learning",
         
@@ -141,6 +152,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Impossible%20Fortune/";
+            },},{id: "books-james",
+          title: 'James',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/James/";
             },},{id: "books-lord-of-the-flies",
           title: 'Lord of the Flies',
           description: "",
@@ -281,13 +297,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/codiefreeman", "_blank");
-        },
-      },{
-        id: 'social-behance_username',
-        title: 'Behance_username',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
