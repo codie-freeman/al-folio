@@ -9,11 +9,11 @@ categories:
 tags: 
 buy_link: 
 started: 2026-06-06
-finished: 2027-01-01
+finished: 2026-07-12
 released: 1961
-stars: 
+stars: 3.5
 goodreads_review: 
-status: Reading
+status: Read
 ---
 
 

@@ -2,7 +2,7 @@
 layout: book-review
 title: The Prison Doctor
 author: Dr Amanda Brown
-cover: 
+cover: assets/img/book_covers/prison doctor.jpg
 olid: OL33962485M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780008448028 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

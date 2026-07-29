@@ -2,7 +2,7 @@
 layout: book-review
 title: Rules Are Less Important Than Kindness
 author: Carlo Rovelli
-cover: 
+cover: assets/img/book_covers/kindness.jpg
 olid: OL29494129M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780241454688 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

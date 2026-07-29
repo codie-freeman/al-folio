@@ -2,7 +2,7 @@
 layout: book-review
 title: The Last Devil to Die
 author: Richard Osman
-cover: 
+cover: assets/img/book_covers/last devil.jpg
 olid: OL46215267M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593299425 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

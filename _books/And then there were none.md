@@ -2,7 +2,7 @@
 layout: book-review
 title: And Then There Were None
 author: Agatha Christie
-cover: 
+cover: assets/img/book_covers/and then there were none.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780312330873 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

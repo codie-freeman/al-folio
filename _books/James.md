@@ -1,23 +1,20 @@
 ---
 layout: book-review
-title: Fatale
-author: Jean-Patrick Manchette
-cover: assets/img/book_covers/fatale.jpg
+title: James
+author: Percival Everett
+cover: assets/img/book_covers/james.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:
 tags: 
 buy_link: 
-started: 2026-08-06
-finished: 2027-06-08
-released: 1977
+started: 2026-16-07
+finished: 2026-20-07
+released: 2024
 stars: 
 goodreads_review: 
-status: On Shelf
+status: Reading
 ---
-
-
-
 
 
 

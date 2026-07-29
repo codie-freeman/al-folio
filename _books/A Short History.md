@@ -2,7 +2,7 @@
 layout: book-review
 title: Short History Of Nearly Everything
 author: Bill Bryson
-cover: 
+cover: assets/img/book_covers/Short History.jpg
 olid: OL31376113M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780552151740 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

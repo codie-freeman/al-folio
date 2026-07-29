@@ -2,7 +2,7 @@
 layout: book-review
 title: What If?
 author: Randall Munroe
-cover: 
+cover: assets/img/book_covers/what if.jpg
 olid: OL28375725M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 1848549563 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

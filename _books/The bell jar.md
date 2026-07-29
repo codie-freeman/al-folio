@@ -13,7 +13,7 @@ finished: 2027-06-08
 released: 1948
 stars: 
 goodreads_review: 
-status: Reading
+status: On Shelf
 ---
 
 

@@ -2,7 +2,7 @@
 layout: book-review
 title: The Luckiest Guy Alive
 author: John Cooper Clarke
-cover: 
+cover: assets/img/book_covers/luckiest guy alive.jpg
 olid: OL28224938M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 1509896058 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

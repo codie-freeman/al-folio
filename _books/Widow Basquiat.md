@@ -2,7 +2,7 @@
 layout: book-review
 title: Widow Basquiat
 author: Jennifer Clement
-cover: 
+cover: assets/img/book_covers/widow.jpg
 olid: OL27170143M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0553419919 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

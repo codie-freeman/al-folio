@@ -2,7 +2,7 @@
 layout: book-review
 title: Mrs Jekyll
 author: Emma Glass
-cover: 
+cover: assets/img/book_covers/mrs jekyll.jpg
 olid: OL51814638M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781739440565 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

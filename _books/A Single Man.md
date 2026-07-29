@@ -2,7 +2,7 @@
 layout: book-review
 title: A Single Man
 author: Christopher Isherwood
-cover: 
+cover: assets/img/book_covers/Single Man.jpg
 olid: OL7424168M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0374520380 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

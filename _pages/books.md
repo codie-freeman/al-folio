@@ -11,4 +11,3 @@ collection: books
 >
 > — Søren Kierkegaard, Either/Or
 
-## Books that I am reading, have read, or will read

@@ -1,10 +1,11 @@
 {
   "basics": {
     "name": "Codie Freeman",
-    "label": "Analytical Chemist | Pharmaceutical Chemistry Student | Computational Methods (Developing)",
+ 
     "email": "contact@codiefreeman.com",
+    "phone": "07557 278 469",
     "url": "https://codiefreeman.com",
-    "summary": "GMP-trained Analytical Chemist and Pharmaceutical Chemistry student with experience across solid-state and advanced analytical techniques. Skilled in generating high quality datasets, maintaining ALCOA++ data integrity and supporting regulated workflows, complemented by prior management experience in a compliance-driven environment.",
+    "summary": "GMP-trained Analytical Chemist and Pharmaceutical Chemistry student with experience across solid-state and advanced analytical techniques. Skilled in generating high quality datasets, maintaining ALCOA++ data integrity and supporting regulated workflows in a compliance-driven environment.",
     "location": {
       "city": "Sandwich",
       "region": "England",
@@ -33,9 +34,12 @@
       "endDate": "2026-08-01",
       "summary": "Industrial placement within a GMP-compliant analytical laboratory supporting R&D and regulated client projects.",
       "highlights": [
-        "Designed an iGC-SEA flow-rate case study demonstrating up to 50% reduction in run time, supporting method development capability.",
-        "Authored multiple stability study reports as lead author, with deliverables undergoing technical and QC review before sponsor submission.",
-        "Maintained GMP-compliant laboratory notebooks, ADFs and audit trails across projects, contributing to solid-state characterisation using iGC, SEM, PXRD, DSC, DVS, TGA and light microscopy."
+        "Designed an iGC-SEA flow-rate case study demonstrating up to a 50% reduction in run time for larger probes, evidencing capability for varied-flow-rate method development.",
+        "Authored multiple time point stability study reports as lead author, with deliverables undergoing technical and QC review before submission, ensuring professional documentation.",
+        "Applied iGC, SEM, PXRD, DSC, DVS, TGA and light microscopy across sponsor projects to support material understanding and sample assessment.",
+        "Maintained accurate laboratory notebooks, ADF and audit trails across GMP projects, contributing to multiple sponsor reports.",
+        "Streamlined light microscopy workflows by replacing a four-step manual composition process with a single composite-image tool, improving consistency and presentation quality.",
+        "Created microscopy training resources and delivered a session to three analysts, with materials shared across the wider laboratory team to support consistent practice."
       ]
     },
     {
@@ -74,20 +78,19 @@
   "projects": [
     {
       "name": "Surface Energy of Sucrose at Modified Particle Sizes",
-      "description": "Investigation into the effect of particle size modification on the surface energy of sucrose.",
+      "summary": "Characterised surface energy heterogeneity across three sucrose fractions using iGC-SEA, PXRD, SEM and BET surface area analysis.",
       "highlights": [
-        "Applied iGC-SEA and SEM to assess particle morphology and link physical changes to measured surface energetics.",
-        "Developing a reproducible characterisation workflow as an independent placement project."
+        "Found that processing route, not particle size, was the dominant influence on surface energy, with direct implications for blend homogeneity and compactability.",
+        "Poster presentation at the Analytical Research Forum 2026."
       ],
-      "keywords": ["iGC-SEA", "SEM", "Surface Energy", "Solid-State Chemistry"],
-      "startDate": "2026-01-01",
-      "status": "In progress"
+      "keywords": ["iGC-SEA", "PXRD", "SEM", "BET", "Surface Energy", "Solid-State Chemistry"],
+      "startDate": "2026-01-01"
     },
     {
       "name": "iGC-SEA Python Package",
-      "description": "Python package for post-processing SMS-IGC-SEA surface energy CSV export data.",
+      "summary": "Developing a Python package for post-processing SMS-IGC-SEA surface energy CSV export data.",
       "highlights": [
-        "Built multi-table CSV parsing with reproducible surface energy and acid-base calculations.",
+        "Multi-table CSV parsing, with reproducible surface energy and acid-base calculations.",
         "Provides more detailed analysis and customisation than proprietary software for developed modes."
       ],
       "keywords": ["Python", "iGC-SEA", "Data Analysis", "Surface Energy"],
@@ -147,10 +150,19 @@
 
   "volunteer": [
     {
+      "organization": "I'm a Scientist, Get Me Out of Here",
+      "position": "Science Communicator",
+      "startDate": "2025-12-01",
+      "summary": "Engaged with students in live Q&A sessions on chemistry and pharmaceutical science careers.",
+      "highlights": [
+        "Completed CPD-accredited training in science communication and public engagement."
+      ]
+    },
+    {
       "organization": "STEM Learning UK",
       "position": "STEM Ambassador",
       "startDate": "2025-07-01",
-      "summary": "Deliver outreach through the 'I'm a Scientist' programme, supporting and encouraging student engagement in chemistry and pharmaceutical sciences."
+      "summary": "Delivered a hands-on surfactant chemistry session to over 240 primary school pupils across two days at the East Kent Science Jamboree, Discovery Park."
     }
   ],
 
@@ -159,15 +171,17 @@
       "name": "Professional Memberships",
       "keywords": [
         "Royal Society of Chemistry (RSC)",
-        "Chemical Information and Computer Applications Group",
+        "Chemical Information and Computer Applications Group (CICAG)",
         "Joint Pharmaceutical Analysis Group (JPAG)"
       ]
     },
     {
       "name": "Professional Development",
       "keywords": [
+        "University of Reading Thrive Mentorship Programme",
         "University of Reading RED Award",
-        "I'm a Scientist Academy (CPD-accredited)"
+        "I'm a Scientist Academy (CPD-accredited)",
+        "Responsible AI (CPD-accredited, Earth 51)"
       ]
     }
   ]

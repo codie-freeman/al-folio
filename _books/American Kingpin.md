@@ -2,7 +2,7 @@
 layout: book-review
 title: American Kingpin
 author: Nick Bilton
-cover: 
+cover: assets/img/book_covers/american kingpin.jpg
 olid: OL27238390M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 1591848148 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

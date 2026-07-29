@@ -2,7 +2,7 @@
 layout: book-review
 title: Ready Player One
 author: Ernest Cline
-cover: 
+cover: assets/img/book_covers/ready player one.jpg
 olid: OL27257671M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0099560437 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

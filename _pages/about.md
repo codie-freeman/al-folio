@@ -19,22 +19,22 @@ latest_posts:
   limit: 3
 ---
 
-My name is **Codie**, a `BSc Pharmaceutical Chemistry` student at the University of Reading  with a year of industrial experience at <a href='https://www.resolian.com/'>Resolian Analytical  Sciences</a>, a `GMP-regulated` contract research organisation based in Sandwich, Kent.
+I'm a final-year `BSc Pharmaceutical Chemistry` student at the University of Reading, with a 13-month industrial placement at <a href='https://www.resolian.com/'>Resolian</a>, a `GMP-regulated` contract research organisation in Sandwich, Kent.
 
-As a `Student Scientist`, I gained hands-on experience across a broad portfolio of solid-state analytical techniques including `iGC-SEA`, `PXRD`, `DSC`, `DVS`, `TGA` and `SEM`, contributing to pharmaceutical sponsor projects alongside self-directed case studies. Authoring formal client reports and maintaining compliance with **GMP** and **ALCOA++** data integrity standards gave me a practical understanding of how documentation and data quality sit at the centre of regulated scientific work.
+At Resolian, I worked as a `Student Scientist` on solid-state characterisation across pharmaceutical sponsor projects, authoring formal client reports and working to GMP and ALCOA++ data integrity standards. *(Full technique breakdown on my [CV](/cv/))*
 
-An independent case study investigating the surface energy of sucrose across modified particle sizes was submitted as a poster to the **Analytical Research Forum 2026**, with findings suggesting that processing route governs surface energy character more strongly than particle size alone.
+An independent [case study](/projects/Sucrose%20Poster/) I ran alongside this work, investigating how particle size and processing route affect the surface energy of sucrose, was presented as a poster at the `Analytical Research Forum 2026`.
 
-Alongside bench work, I have developed practical experience in `Python` for data analysis and visualisation, and I am working towards a computationally focused final-year project that builds on skills developed alongside my placement.
+I'm now heading into a final-year project in computational chemistry, applying AI methods to drug discovery problems; details are still taking shape, but it builds directly on the analytical thinking from placement and a growing interest in `Python` for data analysis.
 
 ---
 
 ### Background
 
-Whilst at university I spent several years as a `Shift Manager` at a **£3M-a-year** hospitality site, leading teams of 20+ people in a busy, compliance-driven environment. The role covered regulatory inspections, SOP enforcement and day-to-day business performance, including tracking KPIs, managing stock and contributing to internal audits. It is a background that complements laboratory work well; commercial awareness and operational discipline are more transferable than people tend to assume.
+Alongside studies I spent several years as a `Shift Manager` at a £3M-a-year hospitality site, leading a team of 90+ people through regulatory inspections, SOP enforcement, KPI tracking and internal audits. The discipline and documentation habits carried straight over into lab work.
 
 ---
 
 ### Outside the Lab
 
-I am a `STEM Ambassador` through the I'm a Scientist programme, supporting student engagement in chemistry and pharmaceutical sciences through schools outreach. I also have a long-standing interest in `graphic design`, and find the overlap between visual communication and technical work genuinely useful, whether that is putting together a conference poster or laying out a report clearly.
+I'm a `STEM Ambassador` and volunteer through the I'm a Scientist programme, supporting schools outreach in chemistry and pharmaceutical sciences. Outside of that, I keep a [running list of what I'm reading](/books/), enjoy cooking in my spare time, and have been an Arsenal supporter through enough ups and downs to call it loyalty.

@@ -2,7 +2,7 @@
 layout: book-review
 title: The Bullet That Missed
 author: Richard Osman
-cover: 
+cover: assets/img/book_covers/bullet that missed.jpg
 olid: OL37579755M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593632666 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

@@ -2,7 +2,7 @@
 layout: book-review
 title: The Man Who Died Twice
 author: Richard Osman
-cover: 
+cover: assets/img/book_covers/man who died twice.jpg
 olid: OL33891091M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0241425425 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:

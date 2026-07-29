@@ -2,7 +2,7 @@
 layout: book-review
 title: Complications - a surgeon's notes on an imperfect science
 author: Atul Gawande
-cover: 
+cover: assets/img/book_covers/complications.jpg
 olid: OL20263812M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories:
