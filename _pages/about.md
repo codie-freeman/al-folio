@@ -37,4 +37,4 @@ Alongside studies I spent several years as a `Shift Manager` at a £3M-a-year ho
 
 ### Outside the Lab
 
-I'm a `STEM Ambassador` and volunteer through the I'm a Scientist programme, supporting schools outreach in chemistry and pharmaceutical sciences. Outside of that, I keep a [running list of what I'm reading](/books/), enjoy cooking in my spare time, and have been an Arsenal supporter through enough ups and downs to call it loyalty.
+I'm a `STEM Ambassador` and volunteer through the I'm a Scientist programme, delivering outreach to schools in chemistry and pharmaceutical sciences. Outside of that, I like to cook, support Arsenal and keep a [running list of what I'm reading](/books/).

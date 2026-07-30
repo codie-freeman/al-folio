@@ -13,7 +13,7 @@ finished: 2026-03-02
 released: 2020
 stars: 
 goodreads_review: 
-status: Reading
+status: On Shelf
 ---
 
 
