@@ -1,97 +1,96 @@
-- title: General Information
-  type: map
+- title: Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - title: Student Scientist
+      institution: Resolian
+      location: Sandwich, Kent
+      year: 2025 - 2026
+      description:
+        - "<b>Project Delivery:</b> Contributed to over 20 analytical projects, as lead analyst and report author on three multiple time-point stability studies, presenting conclusions for a technically varied sponsor audience."
+        - "<b>Data Integrity & Documentation:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, defending analytical decisions and conclusions under QA and technical adviser review."
+        - "<b>Process Improvement:</b> Extended microscopy beyond existing SOP scope using underused functions, replacing a four-step manual composition with a single composite-image workflow, and trained three analysts on it."
+        - "<b>Method Development:</b> Designed an iGC-SEA flow-rate case study demonstrating up to 50% reduction in run time for larger probes, extending the laboratory's varied-flow-rate capability."
+        - "<b>Data Analysis:</b> Recovered Dorris-Gray and Della Volpe surface energy parameters inaccessible through vendor software, processing raw instrument exports in Python and cross-checking outputs."
+        - "<b>Technical Enquiries:</b> Assessed instrument capability against sponsor and internal queries, using literature and vendor documentation to determine whether requested analyses were feasible in-house."
+    - title: Shift Manager
+      institution: JD Wetherspoon
+      location: Reading, Berkshire
+      year: 2022 - 2025
+      description:
+        - "<b>Team Leadership:</b> Managed teams of up to 20 staff in a hospitality environment, overseeing onboarding, training, and shift operations within a 90+ person team."
+        - "<b>Operational Performance:</b> Improved internal audit scores by 15%, contributing to the site's first all-green audit in 10 years across cleanliness, stock, cash and people."
+        - "<b>Regulatory Coordination:</b> Held personal licence, ensuring full compliance with licensing laws and leading a regulatory inspection that achieved a 5/5 rating."
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BSc (Hons) Pharmaceutical Chemistry
+      institution: University of Reading
+      year: 2021 - 2027
+      maindescription: "<i>Including foundation year, industrial placement and approved interruption of study.</i>"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "<b>Key modules:</b> Pharmaceutical Chemistry, Further Organic Chemistry, Further Physical Chemistry, Python, AI and Machine Learning for Chemical Sciences."
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Solid-State Methods
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - iGC-SEA
+        - DVS
+        - PXRD
+        - DSC
+        - TGA
+        - SEM
+        - EDX
+        - Light Microscopy
+    - title: Analytical & Separation
       items:
-        - Description 1.
-        - Description 2.
+        - HPLC-MS
+        - GC
+        - NMR
+        - FTIR
+        - TLC
+    - title: Quality & Compliance
+      items:
+        - GMP
+        - ALCOA++
+        - CAPA Processes
+        - SOPs
+        - COSHH
+        - Risk Assessment
+        - Data Integrity
+    - title: Computational & Data Analysis
+      items:
+        - Python (Pandas, NumPy, Matplotlib, Jupyter)
+        - Git/GitHub
 
-- title: Other Interests
-  type: list
+- title: Projects
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Surface Energy of Sucrose at Modified Particle Sizes
+      year: 2026
+      description:
+        - "Characterised surface energy heterogeneity across three sucrose fractions produced by two processing routes, using iGC-SEA with Dorris-Gray and Peak COM analysis, alongside PXRD, SEM and BET surface area."
+        - "Found that processing route governs surface energy character more strongly than particle size alone, with no direct relationship between BET specific surface area and surface energy, contrary to the expected trend."
+        - "Presented at the Analytical Research Forum 2026 and subsequently adopted as a Resolian marketing resource."
+
+- title: Volunteering
+  type: time_table
+  contents:
+    - title: STEM Ambassador
+      institution: STEM Learning UK
+      year: 2025 - Present
+      description:
+        - "Delivered a hands-on surfactant chemistry session to over 240 primary school pupils across two days at the East Kent Science Jamboree, Discovery Park."
+        - "Engaged with school students on chemistry and pharmaceutical science careers through I'm a Scientist, an online scheme running live text-based Q&A between pupils and working scientists."
+
+- title: Professional Development
+  type: map
+  contents:
+    - name: Memberships
+      value: "Royal Society of Chemistry, including the Chemical Information and Computer Applications Group (CICAG) and Joint Pharmaceutical Analysis Group (JPAG); Academy of Pharmaceutical Sciences"
+    - name: Mentorship
+      value: "University of Reading Thrive Mentorship and Royal Society of Chemistry mentoring schemes"
+    - name: Certifications
+      value: "University of Reading RED Award; CPD training in science communication and responsible AI"

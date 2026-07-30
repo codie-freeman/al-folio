@@ -3,9 +3,8 @@
     "name": "Codie Freeman",
  
     "email": "contact@codiefreeman.com",
-    "phone": "07557 278 469",
     "url": "https://codiefreeman.com",
-    "summary": "GMP-trained Analytical Chemist and Pharmaceutical Chemistry student with experience across solid-state and advanced analytical techniques. Skilled in generating high quality datasets, maintaining ALCOA++ data integrity and supporting regulated workflows in a compliance-driven environment.",
+    "summary": "Final-year Pharmaceutical Chemistry student graduating June 2027, with a year of GMP placement experience in pharmaceutical solid-state characterisation at a contract research organisation. Comfortable across method design, instrument work and sponsor reporting, with a growing focus on computational approaches to analytical data.",
     "location": {
       "city": "Sandwich",
       "region": "England",
@@ -19,8 +18,8 @@
       },
       {
         "network": "GitHub",
-        "username": "codiefreeman",
-        "url": "https://github.com/codiefreeman"
+        "username": "codie-freeman",
+        "url": "https://github.com/codie-freeman"
       }
     ]
   },
@@ -34,12 +33,12 @@
       "endDate": "2026-08-01",
       "summary": "Industrial placement within a GMP-compliant analytical laboratory supporting R&D and regulated client projects.",
       "highlights": [
-        "Designed an iGC-SEA flow-rate case study demonstrating up to a 50% reduction in run time for larger probes, evidencing capability for varied-flow-rate method development.",
-        "Authored multiple time point stability study reports as lead author, with deliverables undergoing technical and QC review before submission, ensuring professional documentation.",
-        "Applied iGC, SEM, PXRD, DSC, DVS, TGA and light microscopy across sponsor projects to support material understanding and sample assessment.",
-        "Maintained accurate laboratory notebooks, ADF and audit trails across GMP projects, contributing to multiple sponsor reports.",
-        "Streamlined light microscopy workflows by replacing a four-step manual composition process with a single composite-image tool, improving consistency and presentation quality.",
-        "Created microscopy training resources and delivered a session to three analysts, with materials shared across the wider laboratory team to support consistent practice."
+        "<b>Project Delivery:</b> Contributed to over 20 analytical projects, as lead analyst and report author on three multiple time-point stability studies, presenting conclusions for a technically varied sponsor audience.",
+        "<b>Data Integrity & Documentation:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, defending analytical decisions and conclusions under QA and technical adviser review.",
+        "<b>Process Improvement:</b> Extended microscopy beyond existing SOP scope using underused functions, replacing a four-step manual composition with a single composite-image workflow, and trained three analysts on it.",
+        "<b>Method Development:</b> Designed an iGC-SEA flow-rate case study demonstrating up to 50% reduction in run time for larger probes, extending the laboratory's varied-flow-rate capability.",
+        "<b>Data Analysis:</b> Recovered Dorris-Gray and Della Volpe surface energy parameters inaccessible through vendor software, processing raw instrument exports in Python and cross-checking outputs.",
+        "<b>Technical Enquiries:</b> Assessed instrument capability against sponsor and internal queries, using literature and vendor documentation to determine whether requested analyses were feasible in-house."
       ]
     },
     {
@@ -50,9 +49,9 @@
       "endDate": "2025-06-01",
       "summary": "Operational and people leadership role within a highly regulated, high-throughput hospitality environment.",
       "highlights": [
-        "Managed teams of up to 20 staff within a 90+ person team, overseeing onboarding, training and shift operations.",
-        "Improved internal audit scores by 15%, contributing to the site's first all-green audit in 10 years.",
-        "Led a regulatory inspection achieving a 5/5 rating, holding personal licence and ensuring full compliance with licensing laws."
+        "<b>Team Leadership:</b> Managed teams of up to 20 staff in a hospitality environment, overseeing onboarding, training, and shift operations within a 90+ person team.",
+        "<b>Operational Performance:</b> Improved internal audit scores by 15%, contributing to the site's first all-green audit in 10 years across cleanliness, stock, cash and people.",
+        "<b>Regulatory Coordination:</b> Held personal licence, ensuring full compliance with licensing laws and leading a regulatory inspection that achieved a 5/5 rating."
       ]
     }
   ],
@@ -69,7 +68,7 @@
         "Pharmaceutical Chemistry",
         "Further Organic Chemistry",
         "Further Physical Chemistry",
-        "Python for Chemical Sciences",
+        "Python",
         "AI and Machine Learning for Chemical Sciences"
       ]
     }
@@ -78,10 +77,10 @@
   "projects": [
     {
       "name": "Surface Energy of Sucrose at Modified Particle Sizes",
-      "summary": "Characterised surface energy heterogeneity across three sucrose fractions using iGC-SEA, PXRD, SEM and BET surface area analysis.",
+      "summary": "Characterised surface energy heterogeneity across three sucrose fractions produced by two processing routes, using iGC-SEA with Dorris-Gray and Peak COM analysis, alongside PXRD, SEM and BET surface area.",
       "highlights": [
-        "Found that processing route, not particle size, was the dominant influence on surface energy, with direct implications for blend homogeneity and compactability.",
-        "Poster presentation at the Analytical Research Forum 2026."
+        "Found that processing route governs surface energy character more strongly than particle size alone, with no direct relationship between BET specific surface area and surface energy, contrary to the expected trend.",
+        "Presented at the Analytical Research Forum 2026 and subsequently adopted as a Resolian marketing resource."
       ],
       "keywords": ["iGC-SEA", "PXRD", "SEM", "BET", "Surface Energy", "Solid-State Chemistry"],
       "startDate": "2026-01-01"
@@ -109,6 +108,7 @@
         "DSC",
         "TGA",
         "SEM",
+        "EDX",
         "Light Microscopy"
       ]
     },

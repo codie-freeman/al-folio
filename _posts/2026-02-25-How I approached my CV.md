@@ -169,7 +169,7 @@ Based on the [RenderCV Engineering Resume Template](https://www.overleaf.com/lat
     
     \normalsize
     \href{mailto:contact@codiefreeman.com}{contact@codiefreeman.com} \,|\,
-    07557 278 469 \,|\, \href{https://linkedin.com/in/codiefreeman}{linkedin.com/in/codiefreeman} \,|\,
+    \href{https://linkedin.com/in/codiefreeman}{linkedin.com/in/codiefreeman} \,|\,
     \href{https://codiefreeman.com}{codiefreeman.com} %\,|\, \href{https://github.com/codie-freeman}{github.com/codie-freeman}
     
 \end{header}
