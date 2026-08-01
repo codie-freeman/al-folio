@@ -4,7 +4,7 @@
  
     "email": "contact@codiefreeman.com",
     "url": "https://codiefreeman.com",
-    "summary": "Final-year Pharmaceutical Chemistry student graduating June 2027, with a year of GMP placement experience in pharmaceutical solid-state characterisation at a contract research organisation. Comfortable across method design, instrument work and sponsor reporting, with a growing focus on computational approaches to analytical data.",
+    "summary": "Final-year Pharmaceutical Chemistry student graduating June 2027, with 13 months of experience in a GMP-regulated contract research organisation. Proficient in owning technical work from design through to client-issued report under formal review, and in using Python to process and interpret raw scientific data.",
     "location": {
       "city": "Sandwich",
       "region": "England",
@@ -33,12 +33,12 @@
       "endDate": "2026-08-01",
       "summary": "Industrial placement within a GMP-compliant analytical laboratory supporting R&D and regulated client projects.",
       "highlights": [
-        "<b>Project Delivery:</b> Contributed to over 20 analytical projects, as lead analyst and report author on three multiple time-point stability studies, presenting conclusions for a technically varied sponsor audience.",
-        "<b>Data Integrity & Documentation:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, defending analytical decisions and conclusions under QA and technical adviser review.",
-        "<b>Process Improvement:</b> Extended microscopy beyond existing SOP scope using underused functions, replacing a four-step manual composition with a single composite-image workflow, and trained three analysts on it.",
+        "<b>Project Delivery:</b> Executed analytical projects to tight sponsor deadlines, acting as lead analyst across multiple studies and working within teams on larger, multi-analyst programmes.",
         "<b>Method Development:</b> Designed an iGC-SEA flow-rate case study demonstrating up to 50% reduction in run time for larger probes, extending the laboratory's varied-flow-rate capability.",
+        "<b>Technical Reporting:</b> Authored 3 multiple time-point stability reports to Ph. Eur. 2.9.19, taking each through QC and technical review and addressing reviewer comments before sponsor issue.",
+        "<b>Process Improvement:</b> Identified an underutilised composite-imaging function, replacing four-step manual composition with a single capture, and wrote the instructions and training for 4 analysts.",
         "<b>Data Analysis:</b> Recovered Dorris-Gray and Della Volpe surface energy parameters inaccessible through vendor software, processing raw instrument exports in Python and cross-checking outputs.",
-        "<b>Technical Enquiries:</b> Assessed instrument capability against sponsor and internal queries, using literature and vendor documentation to determine whether requested analyses were feasible in-house."
+        "<b>Data Integrity & Documentation:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, with sample logbooks and chain of custody kept current across all projects."
       ]
     },
     {
@@ -49,8 +49,8 @@
       "endDate": "2025-06-01",
       "summary": "Operational and people leadership role within a highly regulated, high-throughput hospitality environment.",
       "highlights": [
-        "<b>Team Leadership:</b> Managed teams of up to 20 staff in a hospitality environment, overseeing onboarding, training, and shift operations within a 90+ person team.",
-        "<b>Operational Performance:</b> Improved internal audit scores by 15%, contributing to the site's first all-green audit in 10 years across cleanliness, stock, cash and people.",
+        "<b>Team Leadership:</b> Managed teams of up to 20 staff in a hospitality environment, overseeing onboarding, training and shift operations within a 90+ person team.",
+        "<b>Operational Performance:</b> Improved average internal audit scores by 15%, contributing to the site's first full green audit in 10 years across cleanliness, stock, cash and people.",
         "<b>Regulatory Coordination:</b> Held personal licence, ensuring full compliance with licensing laws and leading a regulatory inspection that achieved a 5/5 rating."
       ]
     }
@@ -63,20 +63,13 @@
       "studyType": "BSc (Hons)",
       "startDate": "2021-09-01",
       "endDate": "2027-06-01",
-      "summary": "Degree programme including a foundation year, approved interruption of study, and an industrial placement year.",
-      "courses": [
-        "Pharmaceutical Chemistry",
-        "Further Organic Chemistry",
-        "Further Physical Chemistry",
-        "Python",
-        "AI and Machine Learning for Chemical Sciences"
-      ]
+      "summary": "Degree programme including a foundation year, approved interruption of study, and an industrial placement year."
     }
   ],
 
   "projects": [
     {
-      "name": "Surface Energy of Sucrose at Modified Particle Sizes",
+      "name": "Surface Energy of Sucrose at Reduced Particle Sizes",
       "summary": "Characterised surface energy heterogeneity across three sucrose fractions produced by two processing routes, using iGC-SEA with Dorris-Gray and Peak COM analysis, alongside PXRD, SEM and BET surface area.",
       "highlights": [
         "Found that processing route governs surface energy character more strongly than particle size alone, with no direct relationship between BET specific surface area and surface energy, contrary to the expected trend.",
@@ -84,23 +77,12 @@
       ],
       "keywords": ["iGC-SEA", "PXRD", "SEM", "BET", "Surface Energy", "Solid-State Chemistry"],
       "startDate": "2026-01-01"
-    },
-    {
-      "name": "iGC-SEA Python Package",
-      "summary": "Developing a Python package for post-processing SMS-IGC-SEA surface energy CSV export data.",
-      "highlights": [
-        "Multi-table CSV parsing, with reproducible surface energy and acid-base calculations.",
-        "Provides more detailed analysis and customisation than proprietary software for developed modes."
-      ],
-      "keywords": ["Python", "iGC-SEA", "Data Analysis", "Surface Energy"],
-      "startDate": "2026-01-01",
-      "status": "In progress"
     }
   ],
 
   "skills": [
     {
-      "name": "Solid-State Methods",
+      "name": "Materials Characterisation",
       "keywords": [
         "iGC-SEA",
         "DVS",
@@ -117,7 +99,7 @@
       "keywords": [
         "HPLC-MS",
         "GC",
-        "NMR (¹H, ¹³C)",
+        "NMR",
         "FTIR",
         "TLC"
       ]
@@ -135,15 +117,12 @@
       ]
     },
     {
-      "name": "Computational & Data",
+      "name": "Computational Analysis",
       "keywords": [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
+        "Python (RDKit, Scikit-learn, Pandas, NumPy, Matplotlib)",
         "Jupyter",
-        "Git",
-        "GitHub"
+        "GitHub",
+        "Microsoft 365"
       ]
     }
   ],
@@ -172,13 +151,15 @@
       "keywords": [
         "Royal Society of Chemistry (RSC)",
         "Chemical Information and Computer Applications Group (CICAG)",
-        "Joint Pharmaceutical Analysis Group (JPAG)"
+        "Joint Pharmaceutical Analysis Group (JPAG)",
+        "Academy of Pharmaceutical Sciences"
       ]
     },
     {
       "name": "Professional Development",
       "keywords": [
         "University of Reading Thrive Mentorship Programme",
+        "Royal Society of Chemistry Mentoring Scheme",
         "University of Reading RED Award",
         "I'm a Scientist Academy (CPD-accredited)",
         "Responsible AI (CPD-accredited, Earth 51)"
