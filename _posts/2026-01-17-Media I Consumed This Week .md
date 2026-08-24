@@ -3,8 +3,8 @@ layout: post
 title: Media I Consumed This Week 
 date: 2026-01-17 13:45:00
 description: A loose collection of things that made me think about value, effort, and why we pay attention to certain ideas over others.
-tags: 
-categories: 
+tags: ai career job-market
+categories: reflections
 ---
 
 ## 🎥 YouTube — Why Useless Knowledge Can Be So Useful, Be Smart (2024)

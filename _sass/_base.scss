@@ -24,6 +24,8 @@ hr {
 }
 
 table {
+  margin-bottom: 1rem;
+
   td,
   th {
     font-size: 1rem;
@@ -952,6 +954,21 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  #markdown-content {
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 400px;
+      width: auto;
+      height: auto;
+    }
+
+    p:has(> img) {
+      text-align: center;
+    }
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

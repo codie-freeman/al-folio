@@ -3,8 +3,8 @@ layout: post
 title: The Experience of my Placement Year
 date: 2026-07-29 13:45:00
 description: How I applied for, landed, and made the most of a 13-month industrial placement, and what I'd tell my past self before starting the process.
-tags:
-categories:
+tags: career job-market analytical-chemistry
+categories: placement
 ---
 
 I was not originally on an integrated placement course. I decided fairly late that a placement year was something I actually wanted, which meant I came to the process without much of a head start. This is a rundown of how that went, what I would do differently, and a few things I think are worth passing on if you are earlier in the process than I was.

@@ -3,8 +3,8 @@ layout: post
 title: My Self-Initiated Python and AI for Chemistry Learning
 date: 2026-04-05 13:45:00
 description: What I have been working on for my personal upskilling in Python and AI tailored for chemistry, and why I found each resource helpful.
-tags:
-categories:
+tags: python machine-learning ai cheminformatics
+categories: dissertation
 ---
 
 Learning to code as a chemist raises an immediate question, where do you actually start? Generic Python courses exist in abundance, but most of them are built around problems with no scientific relevance. Getting comfortable with the python language is useful, but the goal here was always something more specific.Understanding how computational tools apply to chemistry and drug discovery. This is a rundown of what I have doing and the materials I have applied, roughly in the order I approached it, and why each one was worth the time.

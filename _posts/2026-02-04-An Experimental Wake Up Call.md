@@ -3,8 +3,8 @@ layout: post
 title: An Experimental Wake Up Call
 date: 2026-02-04 17:30:00
 description: What Magnesium Stearate Taught Me About Theory vs Practice
-tags:
-categories:
+tags: pharmaceutical-science analytical-chemistry
+categories: placement
 ---
 
 ## Background — Why Magnesium Stearate

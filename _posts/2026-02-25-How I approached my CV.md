@@ -3,8 +3,8 @@ layout: post
 title: How I Approached My CV
 date: 2026-02-25 12:30:00
 description: How I developed my CV as an undergraduate Chemistry student to successfully secure a placement year role and prepare for a difficult graduate market.
-tags:
-categories:
+tags: career job-market cv
+categories: career
 ---
 
 ## Curriculum Vitae
