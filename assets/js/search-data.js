@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-the-experience-of-my-placement-year",
+            },{id: "post-entering-openadmet-39-s-cyp450-blind-challenge",
+        
+          title: "Entering OpenADMET&#39;s CYP450 blind challenge",
+        
+        description: "Scoping the challenge, auditing and curating the released data, and mapping its chemical space. As part of a final year project entry into OpenADMET&#39;s CYP450 inhibition blind challenge.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge/";
+          
+        },
+      },{id: "post-the-experience-of-my-placement-year",
         
           title: "The Experience of my Placement Year",
         
