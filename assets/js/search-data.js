@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-entering-openadmet-39-s-cyp450-blind-challenge",
+            },{id: "post-a-baseline-model-a-real-submission-and-a-dead-end-worth-having",
+        
+          title: "A baseline model, a real submission, and a dead end worth having",
+        
+        description: "Freezing the evaluation framework, screening candidate models, submitting to the real leaderboard, and investigating why one isoform diverged sharply from what the screen predicted.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-2/";
+          
+        },
+      },{id: "post-entering-openadmet-39-s-cyp450-blind-challenge",
         
           title: "Entering OpenADMET&#39;s CYP450 blind challenge",
         
