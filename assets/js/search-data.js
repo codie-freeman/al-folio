@@ -37,9 +37,42 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-baseline-model-a-real-submission-and-a-dead-end-worth-having",
+            },{id: "post-live-leaderboard-collapse-what-cv-to-blind-mismatch-actually-shows",
         
-          title: "A baseline model, a real submission, and a dead end worth having",
+          title: "Live leaderboard collapse, what CV-to-blind mismatch actually shows",
+        
+        description: "The real leaderboard record for all four submissions this project has made, why ensembling keeps failing to generalize, and one genuinely new problem the fix introduced.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-5/";
+          
+        },
+      },{id: "post-four-questions-about-cyp2d6",
+        
+          title: "Four questions about CYP2D6",
+        
+        description: "Working through the CYP2D6 outlier check, sample weighting and tuning, ensemble selection across all four isoforms, and a placement-correction diagnostic that talked us out of pursuing it.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-4/";
+          
+        },
+      },{id: "post-upgrading-environment-and-full-5x5-cross-validation",
+        
+          title: "Upgrading Environment and Full 5x5 Cross-Validation",
+        
+        description: "Running the full repeated cross-validation comparison, checking whether the single-fold screen&#39;s winner actually holds up and fixing an environment problem that had been throttling every run.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-3/";
+          
+        },
+      },{id: "post-a-baseline-model-an-initial-submission-and-a-dead-end",
+        
+          title: "A baseline model, an initial submission and a dead end",
         
         description: "Freezing the evaluation framework, screening candidate models, submitting to the real leaderboard, and investigating why one isoform diverged sharply from what the screen predicted.",
         section: "Posts",
