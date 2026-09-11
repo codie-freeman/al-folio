@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.reading.ac.uk/chemistry/'>University of Reading</a> | <a href='https://www.resolian.com/'>Resolian</a>.
+subtitle: <a href='https://www.reading.ac.uk/chemistry/'>University of Reading</a>
 
 profile:
   align: right
@@ -25,7 +25,7 @@ At Resolian, I worked as a `Student Scientist` on solid-state characterisation a
 
 An independent [case study](/projects/Sucrose%20Poster/) I ran alongside this work, investigating how particle size and processing route affect the surface energy of sucrose, was presented as a poster at the `Analytical Research Forum 2026`.
 
-I'm now heading into a final-year project in computational chemistry, applying AI methods to drug discovery problems; details are still taking shape, but it builds directly on the analytical thinking from placement and a growing interest in `Python` for data analysis.
+My final-year project builds on a growing interest in `Python` for data analysis, an entry into <a href='https://huggingface.co/spaces/openadmet/cyp-challenge'>OpenADMET's CYP450 inhibition blind challenge</a>, predicting pIC50 inhibition across four cytochrome P450 isoforms using cheminformatics and machine learning, under the supervision of Dr Mauricio Cafiero. I'm writing up progress as I go on my [blog](/blog/).
 
 ---
 
@@ -37,4 +37,4 @@ Alongside studies I spent several years as a `Shift Manager` at a £3M-a-year ho
 
 ### Outside the Lab
 
-I'm a `STEM Ambassador` and volunteer through the I'm a Scientist programme, delivering outreach to schools in chemistry and pharmaceutical sciences. Outside of that, I like to cook, support Arsenal and keep a [running list of what I'm reading](/books/).
+As a `STEM Ambassador` and through the I'm a Scientist programme I run chemistry and pharmaceutical science outreach in schools. When I'm not doing that, I'm usually cooking, watching Arsenal games and keeping a [running list of what I'm reading](/books/).

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A baseline model, a real submission, and a dead end worth having
+title: A baseline model, an initial submission and a dead end
 date: 2026-08-26
 description: Freezing the evaluation framework, screening candidate models, submitting to the real leaderboard, and investigating why one isoform diverged sharply from what the screen predicted.
 tags: cheminformatics machine-learning admet python pharmaceutical-science
