@@ -37,7 +37,51 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-live-leaderboard-collapse-what-cv-to-blind-mismatch-actually-shows",
+            },{id: "post-model-report-the-interim-submission",
+        
+          title: "Model report: the interim submission",
+        
+        description: "What the current best submission is, per isoform, separated into what improved ranking and what improved placement, with a pre-registered prediction for the full-set reveal.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-Interim-Leaderboard/";
+          
+        },
+      },{id: "post-four-confirmations-four-board-failures",
+        
+          title: "Four confirmations, four board failures",
+        
+        description: "External training data, a dead-zone training target, two full-data retrains that lost on the board, and the correction that turned one of them into the best submission so far.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-8/";
+          
+        },
+      },{id: "post-the-hard-compounds-are-ordinary",
+        
+          title: "The hard compounds are ordinary",
+        
+        description: "Characterising the compounds all eleven models get wrong, finding regression to the mean underneath, and testing a spread correction on the real leaderboard.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-7/";
+          
+        },
+      },{id: "post-six-things-that-didn-39-t-work-and-one-that-did",
+        
+          title: "Six things that didn&#39;t work, and one that did",
+        
+        description: "Twelve notebooks, five pre-registered screens, and a calibration method that finally moved the leaderboard. Every gain so far has come from correcting predictions rather than improving the model.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-6/";
+          
+        },
+      },{id: "post-live-leaderboard-collapse-what-cv-to-blind-mismatch-actually-shows",
         
           title: "Live leaderboard collapse, what CV-to-blind mismatch actually shows",
         
