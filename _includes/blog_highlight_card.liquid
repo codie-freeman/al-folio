@@ -1,0 +1,48 @@
+{% comment %}
+  One card in the blog "Start here" row.
+  Params:
+    post  - the post to render (required)
+    badge - why this post is in the row: a category name, or blank for a
+            hand-pinned post
+{% endcomment %}
+
+{% assign card_post = include.post %}
+
+{% if card_post.external_source == blank %}
+  {% assign read_time = card_post.content | number_of_words | divided_by: 180 | plus: 1 %}
+{% else %}
+  {% assign read_time = card_post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+{% endif %}
+
+{% if card_post.redirect == blank %}
+  {% assign card_url = card_post.url | relative_url %}
+{% elsif card_post.redirect contains '://' %}
+  {% assign card_url = card_post.redirect %}
+{% else %}
+  {% assign card_url = card_post.redirect | relative_url %}
+{% endif %}
+
+<div class="col">
+  <a
+    href="{{ card_url }}"
+    {% if card_post.redirect contains '://' %}
+      target="_blank" rel="noopener"
+    {% endif %}
+  >
+    <div class="card hoverable h-100">
+      <div class="card-body">
+        {% if card_post.featured or card_post.importance %}
+          <div class="float-right">
+            <i class="fa-solid fa-thumbtack fa-xs" title="Pinned"></i>
+          </div>
+        {% endif %}
+        {% if include.badge != blank %}
+          <p class="highlight-badge"><i class="fa-solid fa-tag fa-sm"></i> {{ include.badge }}</p>
+        {% endif %}
+        <h3 class="card-title text-lowercase">{{ card_post.title }}</h3>
+        <p class="card-text">{{ card_post.description }}</p>
+        <p class="post-meta">{{ read_time }} min read &nbsp; &middot; &nbsp; {{ card_post.date | date: '%B %d, %Y' }}</p>
+      </div>
+    </div>
+  </a>
+</div>

@@ -567,12 +567,21 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  // The layout's own .container.mt-5 already supplies 3rem above this, so keep
+  // the bar's own top padding small or the page opens on a large empty band.
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2.5rem;
+  }
+
+  // Sits below the post titles (1.75rem) so it reads as a subtitle.
+  h2 {
+    color: var(--global-text-color-light);
+    font-size: 1.1rem;
+    margin-bottom: 0;
   }
 }
 
@@ -598,6 +607,282 @@ footer.sticky-bottom {
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
+  }
+}
+
+// Blog landing page: highlights row and filter / sort bar
+
+.blog-highlights {
+  padding-top: 2.5rem;
+
+  &[hidden] {
+    display: none;
+  }
+
+  // Only needed while the cards are stacked; the row never wraps at >= 768px.
+  .col {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card-title {
+    font-size: 1.15rem;
+  }
+
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .highlight-badge {
+    color: var(--global-theme-color);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .post-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-highlights .col {
+    margin-bottom: 0;
+  }
+}
+
+// The highlights row breaks out past the 930px .container so three cards get
+// more room; the header bar and post list stay at the fixed width.
+//
+// .blog-highlights content box = 900px + 2 * outset, and bootstrap's .row adds
+// its 15px negative gutters back on, so the painted extent is 930px + 2 *
+// outset. Each breakpoint leaves ~30px either side when it fires.
+//
+// Stepped pixels rather than a fluid clamp(): media-query width and 100vw both
+// count a classic scrollbar, so a 100vw breakout overflows by half the
+// scrollbar width; and cssminify2 (via jekyll-minifier, production builds only)
+// rewrites `clamp(0px,` to `clamp(0,` and drops the whole declaration.
+@media (min-width: 1200px) {
+  .blog-highlights {
+    margin-left: -105px;
+    margin-right: -105px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .blog-highlights {
+    margin-left: -180px;
+    margin-right: -180px;
+  }
+}
+
+.blog-filters {
+  border-bottom: 1px solid var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 2.5rem;
+  padding: 0.6rem 0;
+
+  // Category pills on the left, sort + count pushed right. One line on
+  // desktop; the controls drop below the pills once they no longer fit.
+  .filter-bar {
+    align-items: center;
+    column-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 0.5rem;
+  }
+
+  .filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .filter-controls {
+    align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    margin-left: auto;
+  }
+
+  .filter-pill {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 2rem;
+    color: var(--global-text-color-light);
+    display: inline-block;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    padding: 0.2rem 0.65rem;
+    text-decoration: none;
+    transition:
+      color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &.active {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: var(--global-hover-text-color);
+    }
+  }
+
+  .filter-count {
+    font-size: 0.7rem;
+    opacity: 0.6;
+  }
+
+  .blog-sort {
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 2rem;
+    color: var(--global-text-color);
+    font-size: 0.8rem;
+    padding: 0.2rem 0.65rem;
+    width: auto;
+
+    &:focus {
+      border-color: var(--global-theme-color);
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .filter-status {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  // Tags are collapsed by default: there are far more of them than categories
+  // and they were taking two wrapped rows. Native <details> so the pills stay
+  // real archive links when JavaScript is off.
+  .filter-tags {
+    margin-top: 0.4rem;
+
+    > summary {
+      color: var(--global-text-color-light);
+      cursor: pointer;
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0;
+      text-transform: uppercase;
+      user-select: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+
+    > .filter-pills {
+      padding: 0.5rem 0 0.25rem;
+    }
+  }
+}
+
+// Resources page: a long index of links. Plain markdown bullets read as
+// unfinished next to the rest of the site, so each entry becomes a row with
+// the name carrying the weight and the note set back behind it.
+.resources {
+  // Lede paragraph above the first section.
+  > p:first-child {
+    line-height: 1.65;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    margin: 2.5rem 0 0;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0.7rem 0;
+  }
+
+  // Inline links inside a note stay tinted so they still read as links.
+  li a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // The entry name. Full contrast whether or not it links anywhere, so the
+  // list does not look ragged where an entry has no URL; it picks up the
+  // theme colour on hover only when it is actually a link.
+  li > strong {
+    color: var(--global-text-color);
+    font-weight: 600;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  li code {
+    font-size: 0.85em;
+  }
+}
+
+.blog-empty {
+  color: var(--global-text-color-light);
+  padding: 3rem 0;
+  text-align: center;
+
+  &[hidden] {
+    display: none;
   }
 }
 

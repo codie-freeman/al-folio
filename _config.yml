@@ -8,7 +8,7 @@ middle_name: C.
 last_name: Freeman
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Pharmaceutical chemistry, solid-state characterisation and cheminformatics. Projects, blog and CV of Codie Freeman, University of Reading.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -251,8 +251,23 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: [] # tag pills shown in the blog filter bar; leave empty to list every tag used by your posts
+display_categories: [] # category pills shown in the blog filter bar; leave empty to list every category used by your posts
+
+# Highlights row at the top of the blog page. This exists so the landing page
+# shows a spread of work rather than whatever happens to be newest. Slots are
+# filled in this order, then capped at `max`:
+#   1. posts with `featured: true`
+#   2. posts with an `importance:` value (lowest number first)
+#   3. the most recent post from each category in `categories`, in this order
+# A category left out of `categories` never auto-fills a slot, but its posts can
+# still be pinned by hand with `featured` or `importance`.
+# Keep `max` at 3: the row is laid out three across, so a fourth card would
+# orphan onto a second line.
+blog_highlights:
+  enabled: true
+  max: 3
+  categories: [dissertation, placement, career]
 
 
 # -----------------------------------------------------------------------------

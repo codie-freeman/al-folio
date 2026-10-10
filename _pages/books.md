@@ -6,8 +6,8 @@ nav: false
 collection: books
 ---
 
-> "I see it all perfectly; there are two possible situations — one can either do this or that. My honest opinion is this: do it or do not do it — you will regret both."
+> "The only advice, indeed, that one person can give another about reading is to take no advice, to follow your own instincts, to use your own reason, to come to your own conclusions."
 >
 >
-> — Søren Kierkegaard, Either/Or
+> — Virginia Woolf
 
