@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Codie Freeman",
- 
     "email": "contact@codiefreeman.com",
     "url": "https://codiefreeman.com",
-    "summary": "Final-year Pharmaceutical Chemistry student graduating June 2027, with 13 months of experience in a GMP-regulated contract research organisation. Proficient in owning technical work from design through to client-issued report under formal review, and in using Python to process and interpret raw scientific data.",
+    "summary": "Final-year BSc Pharmaceutical Chemistry student (predicted 2:1, graduating June 2027) with 13 months' industry experience at a GMP contract research organisation. Currently applying machine learning to CYP450 inhibition prediction in the OpenADMET blind challenge.",
     "location": {
       "city": "Sandwich",
       "region": "England",
@@ -35,10 +34,10 @@
       "highlights": [
         "<b>Project Delivery:</b> Executed analytical projects to tight sponsor deadlines, acting as lead analyst across multiple studies and working within teams on larger, multi-analyst programmes.",
         "<b>Method Development:</b> Designed an iGC-SEA flow-rate case study demonstrating up to 50% reduction in run time for larger probes, extending the laboratory's varied-flow-rate capability.",
-        "<b>Technical Reporting:</b> Authored 3 multiple time-point stability reports to Ph. Eur. 2.9.19, taking each through QC and technical review and addressing reviewer comments before sponsor issue.",
-        "<b>Process Improvement:</b> Identified an underutilised composite-imaging function, replacing four-step manual composition with a single capture, and wrote the instructions and training for 4 analysts.",
+        "<b>Technical Reporting:</b> Authored 10 multiple time-point stability reports to Ph. Eur. 2.9.19, taking each through QC and technical review and addressing reviewer comments before sponsor issue.",
         "<b>Data Analysis:</b> Recovered Dorris-Gray and Della Volpe surface energy parameters inaccessible through vendor software, processing raw instrument exports in Python and cross-checking outputs.",
-        "<b>Data Integrity & Documentation:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, with sample logbooks and chain of custody kept current across all projects."
+        "<b>Process Improvement:</b> Identified an underutilised composite-imaging function, replacing a four-step manual composition with a single capture; created and delivered training resources to four analysts.",
+        "<b>Data Integrity:</b> Maintained GMP laboratory notebooks, ADF records and audit trails to ALCOA++ standard, with sample logbooks and chain of custody kept current across all projects."
       ]
     },
     {
@@ -59,15 +58,26 @@
   "education": [
     {
       "institution": "University of Reading",
-      "area": "Pharmaceutical Chemistry",
+      "area": "Pharmaceutical Chemistry (Predicted 2:1)",
       "studyType": "BSc (Hons)",
       "startDate": "2021-09-01",
       "endDate": "2027-06-01",
-      "summary": "Degree programme including a foundation year, approved interruption of study, and an industrial placement year."
+      "score": "Predicted 2:1",
+      "courses": ["Including foundation year and industrial placement year at Resolian"]
     }
   ],
 
   "projects": [
+    {
+      "name": "Final Year Project: Machine Learning for CYP450 Inhibition Prediction",
+      "summary": "Machine learning approach to predicting cytochrome P450 inhibition, supervised by Dr Mauricio Cafiero at the University of Reading.",
+      "highlights": [
+        "Entrant in OpenADMET blind challenge using machine learning to predict inhibition of four cytochrome P450 drug-metabolising enzymes; designed and ran the full pipeline in Python.",
+        "Designed a repeated cross-validation and statistical-testing framework to benchmark graph neural networks and molecular foundation models against tree-based baselines."
+      ],
+      "keywords": ["Machine Learning", "Cheminformatics", "Python", "RDKit", "Graph Neural Networks", "CYP450"],
+      "startDate": "2026-08-01"
+    },
     {
       "name": "Surface Energy of Sucrose at Reduced Particle Sizes",
       "summary": "Characterised surface energy heterogeneity across three sucrose fractions produced by two processing routes, using iGC-SEA with Dorris-Gray and Peak COM analysis, alongside PXRD, SEM and BET surface area.",
@@ -76,7 +86,8 @@
         "Presented at the Analytical Research Forum 2026 and subsequently adopted as a Resolian marketing resource."
       ],
       "keywords": ["iGC-SEA", "PXRD", "SEM", "BET", "Surface Energy", "Solid-State Chemistry"],
-      "startDate": "2026-01-01"
+      "startDate": "2025-12-01",
+      "endDate": "2026-03-01"
     }
   ],
 
@@ -101,7 +112,7 @@
         "GC",
         "NMR",
         "FTIR",
-        "TLC"
+        "UV-Vis"
       ]
     },
     {
@@ -129,39 +140,49 @@
 
   "volunteer": [
     {
-      "organization": "I'm a Scientist, Get Me Out of Here",
-      "position": "Science Communicator",
-      "startDate": "2025-12-01",
-      "summary": "Engaged with students in live Q&A sessions on chemistry and pharmaceutical science careers.",
-      "highlights": [
-        "Completed CPD-accredited training in science communication and public engagement."
-      ]
-    },
-    {
       "organization": "STEM Learning UK",
       "position": "STEM Ambassador",
       "startDate": "2025-07-01",
-      "summary": "Delivered a hands-on surfactant chemistry session to over 240 primary school pupils across two days at the East Kent Science Jamboree, Discovery Park."
+      "summary": "Volunteer outreach and science communication with school pupils.",
+      "highlights": [
+        "Delivered a hands-on surfactant chemistry session to over 240 primary school pupils across two days at the East Kent Science Jamboree, Discovery Park.",
+        "Engaged with school students on chemistry and pharmaceutical science careers through I'm a Scientist, an online scheme running live text-based Q&A between pupils and working scientists."
+      ]
+    },
+    {
+      "organization": "ELRIG",
+      "position": "Red Shirt Volunteer",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
+      "summary": "Volunteer event support at Drug Discovery 2026.",
+      "highlights": [
+        "Supported delivery of Drug Discovery 2026, helping operations across two days for 3,000 attendees and sessions spanning AI-driven discovery to translational science."
+      ]
     }
   ],
 
   "interests": [
     {
-      "name": "Professional Memberships",
+      "name": "Memberships",
       "keywords": [
         "Royal Society of Chemistry (RSC)",
-        "Chemical Information and Computer Applications Group (CICAG)",
-        "Joint Pharmaceutical Analysis Group (JPAG)",
+        "RSC Chemical Information and Computer Applications Group (CICAG)",
+        "RSC Joint Pharmaceutical Analysis Group (JPAG)",
         "Academy of Pharmaceutical Sciences"
       ]
     },
     {
-      "name": "Professional Development",
+      "name": "Mentorships",
       "keywords": [
         "University of Reading Thrive Mentorship Programme",
-        "Royal Society of Chemistry Mentoring Scheme",
+        "Royal Society of Chemistry Mentoring Scheme"
+      ]
+    },
+    {
+      "name": "Certifications",
+      "keywords": [
         "University of Reading RED Award",
-        "I'm a Scientist Academy (CPD-accredited)",
+        "Science Communication (CPD-accredited, I'm a Scientist Academy)",
         "Responsible AI (CPD-accredited, Earth 51)"
       ]
     }

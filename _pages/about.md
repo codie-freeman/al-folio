@@ -14,18 +14,20 @@ profile:
 selected_papers: false
 social: false
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
 
 I'm a final-year `BSc Pharmaceutical Chemistry` student at the University of Reading, with a 13-month industrial placement at <a href='https://www.resolian.com/'>Resolian</a>, a `GMP-regulated` contract research organisation in Sandwich, Kent.
 
+My final-year project is an entry into <a href='https://huggingface.co/spaces/openadmet/cyp-challenge'>OpenADMET's CYP450 inhibition blind challenge</a>, predicting pIC50 inhibition across four cytochrome P450 isoforms using cheminformatics and machine learning, under the supervision of Dr Mauricio Cafiero. I'm writing up progress as I go on my [blog](/blog/).
+
 At Resolian, I worked as a `Student Scientist` on solid-state characterisation across pharmaceutical sponsor projects, authoring formal client reports and working to GMP and ALCOA++ data integrity standards. *(Full technique breakdown on my [CV](/cv/))*
 
 An independent [case study](/projects/Sucrose%20Poster/) I ran alongside this work, investigating how particle size and processing route affect the surface energy of sucrose, was presented as a poster at the `Analytical Research Forum 2026`.
 
-My final-year project builds on a growing interest in `Python` for data analysis, an entry into <a href='https://huggingface.co/spaces/openadmet/cyp-challenge'>OpenADMET's CYP450 inhibition blind challenge</a>, predicting pIC50 inhibition across four cytochrome P450 isoforms using cheminformatics and machine learning, under the supervision of Dr Mauricio Cafiero. I'm writing up progress as I go on my [blog](/blog/).
+
 
 ---
 
