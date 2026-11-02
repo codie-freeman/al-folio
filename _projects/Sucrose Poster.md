@@ -1,99 +1,47 @@
 ---
 layout: page
 title: Effect of Particle Size Reduction on the Surface Energy of Sucrose
-description: Investigating how processing-induced particle size reduction affects the surface energy of sucrose, characterised using iGC-SEA, PXRD, SEM, and BET nitrogen adsorption.
+description: An iGC-SEA case study from my placement at Resolian, asking whether milling changes the surface energy of sucrose because the particles get smaller or because of how they were made smaller.
 img: /assets/img/sucrose-igc-poster.png
 importance: 1
 ---
 
-## Links
-[Full PDF poster]({{ "/assets/pdf/sucrose-igc-poster.pdf" | relative_url }})
+[Poster (PDF)]({{ "/assets/pdf/sucrose-igc-poster.pdf" | relative_url }})
 
----
+This was an independent case study I ran during my placement year at Resolian Analytical Sciences, co-authored with my line manager Jack Aston. I presented it as a poster at the Analytical Research Forum 2026, and Resolian has since adopted the poster as a marketing resource for its iGC-SEA service.
 
-## At a glance
-- **Outcome:** Processing route influences surface energy more significantly than particle size alone, no direct trend observed between BET specific surface area and surface energy
-- **Tools:** iGC-SEA, PXRD, SEM, BET nitrogen adsorption
-- **Skills:** surface energy heterogeneity profiling, Dorris-Gray methodology, acid-base characterisation, solid-state characterisation
-- **Result highlight:** the industrially milled Fine sample exhibited higher surface energies and greater heterogeneity than the granulated samples, despite similar particle size fractions being achievable by both routes
+## The question
 
----
+Surface energy governs how a powder behaves in manufacturing: how strongly particles adhere to each other, how well a blend flows, and whether it cakes on storage. Milling is usually assumed to raise surface energy because it exposes fresh fracture surfaces and increases specific surface area. But milling also changes particle shape, surface texture and the amount of fine material stuck to larger particles, any of which could shift surface energy on its own. I wanted to know whether a change in surface energy could be put down to particle size, or whether the processing route was doing the work.
 
-## Overview
-**Does particle size reduction change the surface energy of sucrose and is that change driven by particle size or by how the size reduction was achieved?**
-Three sucrose fractions were produced via two distinct processing routes and characterised by iGC-SEA alongside complementary solid-state techniques. The work forms an independent case study undertaken during an industrial placement at Resolian Analytical Sciences, and has been submitted as a poster abstract to ARS 2026.
+## What I did
 
-> **Status:** Poster complete - abstract submitted to ARS 2026, awaiting outcome.
-
----
-
-## Objectives
-- Produce sucrose fractions via two processing routes spanning a range of particle sizes
-- Characterise dispersive and specific surface energy heterogeneity profiles using iGC-SEA
-- Assess acid-base character (Ka, Kb) as a function of surface coverage
-- Complement iGC-SEA with SEM, PXRD, and BET to provide a full solid-state picture
-- Determine whether surface energy differences are attributable to particle size or processing route
-
----
-
-## Scope
-**Particle size fractions:**
+I produced three sucrose fractions by two routes:
 
 | Fraction | Route | Size range |
 |---|---|---|
-| Coarse | Pestle and mortar grinding + sieving | 500–180 µm |
-| Medium | Pestle and mortar grinding + sieving | 150–45 µm |
-| Fine | Industrial milling + sieving | 45–30 µm |
+| Coarse | Pestle and mortar grinding of granulated sucrose, then sieving | 500–180 µm |
+| Medium | Pestle and mortar grinding of granulated sucrose, then sieving | 150–45 µm |
+| Fine | Industrially milled sucrose, sieved | 45–30 µm |
 
-**Techniques:**
+Surface energy was measured on a Surface Measurement Systems iGC-SEA. Samples were packed into silanised glass columns to a total surface of roughly 0.5 m², conditioned at 30 °C for 60 minutes under helium (10 sccm), and run across fractional surface coverages from 0.005 to 0.12 n/nm⁻¹. Dispersive and specific surface energy heterogeneity profiles were calculated using the Dorris-Gray method and the peak centre-of-mass parameter, and acid-base character was assessed from Ka and Kb across the same coverage range.
 
-`iGC-SEA`  `PXRD`  `SEM`  `BET nitrogen adsorption`
+To make sense of the surface energy data I also characterised each fraction by SEM (Zeiss Sigma field emission SEM, SE2 detector, 3 kV), nitrogen adsorption BET (Micromeritics TriStar 3020) and PXRD (Bruker D2 Phaser).
 
----
+## What came out
 
-## Approach
-- Surface energy heterogeneity profiles determined using Dorris-Gray methodology and peak centre-of-mass parameters across fractional surface coverages (0.005–0.12 n/nm⁻¹)
-- Acid-base character quantified via Ka and Kb across the same surface coverage range
-- BET used to determine specific surface area
-- SEM used to assess particle morphology and surface texture
-- PXRD used to assess crystallinity across fractions
+BET specific surface area did not follow particle size. The coarse fraction measured 0.04 m² g⁻¹, the medium fraction 1.00 m² g⁻¹ and the fine fraction 0.67 m² g⁻¹, so the smallest particles did not have the largest surface area. SEM explained this: the hand-ground fractions carried a lot of adhered fine particles and rougher surfaces, while the milled fraction was cleaner and more uniform. Surface area on its own was not going to predict surface energy here.
 
----
+PXRD showed the same crystalline phase in all three fractions. Peak intensity varied, which is consistent with preferred orientation, and the baseline of the fine fraction suggested some amorphous content from industrial milling.
 
-## Results
+The iGC-SEA results separated the routes rather than the sizes. The two hand-ground fractions had similar dispersive surface energies despite a roughly tenfold difference in particle size, with grinding having more effect on the specific (acid-base) component. The industrially milled fine fraction had higher dispersive and specific surface energies than either, and a wider distribution of surface energy sites. Across all three fractions the Ka/Kb ratio was below 1, so the surfaces are predominantly basic, and the ratio fell as coverage increased, meaning the basic character is concentrated at the lower-energy sites.
 
-### 1) BET surface area
-BET specific surface area did not increase monotonically with particle size reduction, attributed to differences in surface texture and adhered fine particle content as observed by SEM.
+## What it means
 
-> **Takeaway:** surface area alone is not a reliable predictor of surface energy behaviour in these samples.
+Processing route had a larger effect on surface energy than particle size. If size were the driver, the coarse and medium fractions should have differed and the fine fraction should have had the highest surface area to match its highest surface energy. Neither happened. The milled sample stands apart in a way that neither particle size nor BET surface area explains, which points to mechanical activation of the surface during milling.
 
-### 2) PXRD
-PXRD confirmed consistent crystallinity across all fractions. Baseline characteristics in the Fine sample suggested a possible amorphous contribution from industrial milling.
+For formulation, the practical point is that two batches of the same excipient at the same particle size can behave differently in a blend or a tablet press depending on how they were made. Surface energy measurement catches that where particle size distribution and surface area do not.
 
-### 3) iGC-SEA — dispersive surface energy
-The industrially milled Fine sample exhibited higher surface energies and greater heterogeneity relative to the granulated Coarse and Medium samples — despite overlapping particle size ranges being achievable by both routes.
+## Beyond the data
 
-> **Takeaway:** processing route, not particle size alone, is the dominant driver of surface energy differences.
-
-### 4) Acid-base character (Ka/Kb)
-Across all fractions, the Ka/Kb ratio decreased at higher surface coverages, indicating electron-donating (basic) character concentrated at lower-energy surface sites.
-
----
-
-## Interpretation
-**Key finding**
-
-Processing route influences surface energy more significantly than particle size alone. The industrially milled Fine fraction shows distinct surface energy characteristics that cannot be explained by particle size or surface area differences alone, pointing to mechanically activated surface modification during milling.
-
-**Implications**
-
-Processing-induced surface energy changes could affect downstream powder behaviour — including interparticle adhesion, flow, and caking tendency with direct relevance to pharmaceutical powder manufacturing and formulation.
-
----
-
-## What I learned
-- Hands-on experience with iGC-SEA instrumentation and data interpretation in a GMP-regulated CRO environment
-- Applying Dorris-Gray methodology and acid-base analysis to a pharmaceutical excipient
-- Interpreting complementary solid-state data (SEM, PXRD, BET) in the context of iGC-SEA findings
-- Scientific communication for an external conference — abstract writing and poster design
-- Conducting and presenting an independent case study within an industrial placement
+This was the first project I took from design through to an external conference. It involved writing the abstract, running every technique on the poster in a GMP-regulated laboratory, interpreting the SEM, BET and PXRD data alongside the iGC-SEA profiles, and designing the poster itself.

@@ -1,82 +1,37 @@
 ---
 layout: page
-title: Inverse Gas Chromatography
-description: A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data.
+title: igcsea
+description: An open-source Python package for calculating surface energy from inverse gas chromatography data, validated against the vendor software and built so every step of the calculation can be inspected.
 img: /assets/img/igc-drawer.jpg
-importance: 3
+importance: 2
 ---
 
-## Links
-[GitHub — inverse-gas-chromatography](https://github.com/codie-freeman/inverse-gas-chromatography)
+[GitHub: inverse-gas-chromatography](https://github.com/codie-freeman/inverse-gas-chromatography)
 
----
+igcsea is a Python package that takes the raw CSV export from a Surface Measurement Systems iGC-SEA and calculates dispersive and specific surface energy, acid-base components and adsorption isotherms. I wrote it during my placement at Resolian, where I was running the instrument daily, and have kept developing it since.
 
-## At a glance
-- **Outcome:** Functional toolkit for parsing IGC instrument exports and computing surface energy components
-- **Tools:** Python, Jupyter, Cirrus Plus v1.5 (validation reference)
-- **Skills:** scientific software development, data parsing, reproducible computation, AI-assisted development
-- **Result highlight:** calculations validated against Cirrus Plus v1.5 outputs; notebook prototypes available in the repository
+## Why I built it
 
----
+The instrument ships with Cirrus Plus, which does the surface energy calculation well but as a black box. You cannot see the intermediate values, you cannot change which method is applied, and some parameters are simply not exposed. During the sucrose study I needed Dorris-Gray and Della Volpe parameters that the vendor software would not give me, so I processed the raw exports myself in Python and cross-checked the results against what Cirrus Plus did report. That script became the package.
 
-## Overview
-**Can IGC surface energy data be extracted, calculated, and visualised in a transparent, reproducible way outside of proprietary software?**
-Cirrus Plus handles this well but operates as a black box. This toolkit reimplements the core calculations openly, so results can be inspected, reproduced, and extended.
+The point is not to replace the vendor software. It is to have an open implementation of the same calculations that can be read, tested, reproduced and extended, and that early-career analysts can use to understand what the instrument is actually doing to their data.
 
----
+## What it does
 
-## Objectives
-- Build a reliable parser for multi‑table CSV exports from IGC instruments
-- Implement core surface energy calculations in a transparent, reproducible way
-- Provide clear visualisations (e.g., γsD, γsAB, acid/base components, isotherms)
-- Offer a simple interface for uploading CSVs and generating graphs
-- Maintain honest documentation of the development process, including AI‑assisted steps
-- Produce a user‑friendly tool suitable for early‑career researchers
+- Parses the irregular multi-table CSV format the instrument exports, which mixes metadata, retention data and derived values in a single file
+- Calculates dispersive surface energy (γsᴰ) using the Dorris-Gray method
+- Calculates the specific component (γsᴬᴮ) and acid-base character using the Della Volpe approach
+- Builds adsorption isotherms and surface energy heterogeneity profiles across fractional surface coverage
+- Plots dispersive energy, isotherms and the component breakdown
 
----
+## Validation
 
-## Scope
-**Data handled:** multi-table CSV exports from IGC-SEA instruments
-**Calculations:** dispersive surface energy (γsD), acid/base components (γsAB), total surface energy, adsorption isotherms
+Every calculated quantity has been checked against Cirrus Plus v1.5 output on the same data files. The package is covered by 43 tests across its six modules, so a change that breaks the agreement with the reference software fails the test suite rather than quietly producing a different number.
 
----
+## How it was built
 
-## Approach
-- Developed a CSV parser to handle the irregular multi-table format exported by IGC instruments
-- Reimplemented surface energy calculations from the IGC-SEA methodology literature
-- Validated outputs against Cirrus Plus v1.5 reference calculations
-- Built Jupyter notebook prototypes to demonstrate parsing, calculation, and visualisation
+I used Claude Code as the primary coding tool for this project, and I say so in the repository. The division of labour was deliberate: I made the scientific decisions, which equations to implement, how to interpret them from the IGC literature, how to handle the instrument's export format and what the outputs should look like, and used the AI to write and refactor the code against those decisions. Validation against Cirrus Plus was the check that the division held.
 
----
+## Limitations and what's next
 
-## Results
-- Parser successfully extracts retention data from instrument CSV exports
-- Calculated γsD, γsAB, and acid/base components match Cirrus Plus v1.5 outputs
-- Notebook prototypes produce plots for dispersive energy, isotherms, and component breakdown
-
----
-
-## Interpretation
-**What worked well**
-- Validation against Cirrus Plus confirmed calculation accuracy
-- Jupyter notebook format makes each step transparent and reproducible
-- AI-assisted development accelerated prototyping without compromising scientific accuracy
-
-**Limitations**
-- Currently prototype-level; not packaged for general distribution
-- Parser handles one instrument export format; other formats would need extension
-
----
-
-## Improvements
-- Package into a proper Python library with a CLI or lightweight web interface
-- Extend parser to handle additional instrument export formats
-- Add uncertainty propagation to surface energy outputs
-
----
-
-## What I learned
-- Practical experience structuring a scientific Python project
-- Working with messy, instrument-exported CSV formats
-- Using AI-assisted development responsibly within a technical domain
-- How to validate computational outputs against reference software
+The parser handles one instrument's export format. Other IGC instruments would need their own parser, and the package has not yet been tested on them. The calculations do not currently propagate uncertainty through to the surface energy outputs, which is the main thing I want to add, because the heterogeneity profiles in particular would benefit from error bars.

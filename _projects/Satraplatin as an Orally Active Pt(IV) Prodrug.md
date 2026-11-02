@@ -1,127 +1,30 @@
 ---
 layout: page
 title: Satraplatin as an Orally Active Pt(IV) Prodrug
-description: Scientific poster examining Satraplatin's structure, mechanism, and clinical context as an orally active Pt(IV) prodrug.
+description: A group poster and extended report on why satraplatin can be taken orally when cisplatin cannot, how it is activated in the tumour cell, and why it has still not reached the clinic.
 img: /assets/img/satra.png
 importance: 4
 ---
 
-## Links
 - [Poster (PDF)]({{ "/assets/pdf/SATRA-POSTER.pdf" | relative_url }})
 - [Extended report (PDF)]({{ "/assets/pdf/SATRA-REPORT.pdf" | relative_url }})
 
-> **Note:** The extended report was **not required** for the assignment. We chose to produce it (with approval from the module supervisors) to strengthen the scientific rationale behind the poster and provide full references without overloading the layout.
+A group project with Max Peacock and Vladmir Chernik for a pharmaceutical chemistry module. The brief was a scientific poster. We added a short journal-style report, with the module supervisors' approval, so the poster could stay light on text and still point to full references and mechanistic detail through a QR code.
 
----
+## Why satraplatin
 
-## At a glance
-- **Outcome:** Designed a scientific poster explaining Satraplatin's structure, mechanism, and clinical context
-- **Tools:** ChemDraw (structures), BioRender (mechanism figure), AI‑generated title graphic
-- **Skills:** scientific communication, visual design, mechanism mapping, literature synthesis
-- **Result highlight:** clear, text‑light poster supported by a QR‑linked extended report
+Cisplatin and carboplatin are still mainstays for solid tumours, but they have to be given intravenously, they accumulate renal, neurological and auditory toxicity, and tumours develop resistance through DNA repair, efflux and glutathione-mediated detoxification. The Pt(II) centre hydrolyses in acid, which is the main reason an oral form has never been practical.
 
----
+Satraplatin (JM-216) sidesteps that problem by being a Pt(IV) prodrug. The octahedral geometry and two axial acetato ligands make it stable in the gut and lipophilic enough to cross membranes by passive diffusion. It reaches the tumour cell intact, and only there is it reduced by glutathione and ascorbate to JM-118, the square planar Pt(II) species that binds DNA. JM-118 forms 1,2-intrastrand crosslinks between adjacent guanines, as cisplatin does, but the adducts are poorly recognised by mismatch repair and HMG-domain proteins, which is why satraplatin retains activity in cisplatin-resistant models.
 
-## Overview
-**What makes Satraplatin a viable orally active Pt(IV) prodrug, and how does it differ mechanistically and clinically from cisplatin?**
-Our group explored its design rationale, activation pathway, toxicity profile, and clinical prospects — then communicated this visually through a poster.
+## The clinical trade-off
 
----
+The toxicity profile is different rather than simply better. Nephrotoxicity is rare, neurotoxicity mild and ototoxicity minimal, and oral dosing avoids the plasma peaks that drive much of cisplatin's acute toxicity. The cost is haematological: bone marrow suppression is satraplatin's dose-limiting toxicity. In the Phase III trial for metastatic castration-resistant prostate cancer it improved progression-free survival but not overall survival, and that is why it has never been approved. pharma& acquired the global rights in 2024 with a view to relapsed CNS lymphoma, so the compound is not finished yet.
 
-## Objectives
-- Explain why Pt(IV) complexes enable oral delivery
-- Compare Satraplatin's structure and behaviour to cisplatin
-- Illustrate the intracellular reduction pathway (Pt(IV) → Pt(II) JM‑118)
-- Summarise toxicity differences and clinical trial outcomes
-- Produce a clear, visually driven poster with minimal text
-- Provide deeper context via a QR‑linked extended report
-
----
-
-## Scope
-**Compounds included:** `Cisplatin` · `Satraplatin (JM‑216)` · `JM‑118 (active Pt(II) metabolite)`
-
----
-
-## Approach
-- Reviewed literature on Pt(IV) prodrugs and Satraplatin's development
-- Used **ChemDraw** to generate skeletal structures
-- Built a **BioRender** mechanism figure showing absorption, reduction, and DNA binding
-- Designed an AI‑assisted **title graphic** for visual identity
-- Structured the poster around **minimal text + strong visuals**
-- Added a **QR code** linking to a full written report for examiners
-
----
-
-## Results
-
-### 1) Why Satraplatin works orally
-- **Pt(IV) geometry** provides stability in gastric acid
-- **Axial acetato ligands** increase lipophilicity → passive diffusion
-- **Reduced intracellularly** (glutathione/ascorbate) to JM‑118
-- **Avoids premature hydrolysis**, unlike cisplatin
-
-> **Takeaway:** Satraplatin's design solves the "IV‑only" limitation of Pt(II) drugs.
-
----
-
-### 2) Mechanism: how JM‑118 acts
-- Reduction converts Pt(IV) → Pt(II)
-- JM‑118 forms **1,2‑intrastrand guanine crosslinks**
-- These adducts are **poorly recognised** by MMR and HMG proteins
-- Helps bypass **cisplatin resistance pathways**
-
----
-
-### 3) Toxicity profile (vs cisplatin)
-
-| Feature | Cisplatin | Satraplatin |
-|:--|:--|:--|
-| Nephrotoxicity | High | Low |
-| Neurotoxicity | Frequent | Mild |
-| Ototoxicity | Moderate–severe | Minimal |
-| GI toxicity | Severe | Mild–moderate |
-| Haematologic toxicity | Mild | **Strong, dose‑limiting** |
-
-> **Interpretation:** Satraplatin trades renal/neuro toxicity for haematologic toxicity — a different but manageable profile.
-
----
-
-## Interpretation
-**What worked well**
-- Clear mechanistic distinction from cisplatin
-- Strong visual communication using diagrams rather than dense text
-- Poster design aligned with best‑practice guidance (minimal text, strong figures)
-- QR code allowed deeper exploration without cluttering the layout
-
-**What was challenging**
-- Balancing scientific depth with poster simplicity
-- Condensing complex Pt(IV) → Pt(II) chemistry into a single figure
-- Ensuring the mechanism diagram remained accurate while visually intuitive
-
----
-
-## Improvements
-- Include a small section on Pt(IV) reduction kinetics
-- Add a toxicity timeline or dose‑response visual
-- Provide a clearer comparison of clinical trial outcomes
-- Expand the QR‑linked report with more mechanistic detail
-
----
+The poster title asked whether oral platinum therapy is a design evolution or a dead end. The report's answer is that satraplatin shows the Pt(IV) prodrug approach works mechanistically, and that the barrier is a clinical one.
 
 ## What I contributed
-- AI‑generated **title artwork**
-- **ChemDraw** structures for cisplatin and Satraplatin
-- **BioRender** mechanism figure (absorption → reduction → DNA binding)
-- Poster layout, colour palette, and visual hierarchy
-- Research and referencing, creating a shared Zotero reference manager for the project
-- Refinements of final poster content
-- Authored the extended report
 
----
+I drew the cisplatin and satraplatin structures in ChemDraw, built the mechanism figure in BioRender (oral absorption, systemic distribution, passive diffusion into the cell, intracellular reduction, DNA adduct formation), produced the title graphic, and did the poster layout, palette and visual hierarchy. I also set up a shared Zotero library for the group's references and wrote the extended report.
 
-## What I learned
-- How to communicate complex mechanisms visually
-- How to design a poster that prioritises clarity over density
-- How to integrate AI‑assisted tools responsibly in scientific work
-- How to collaborate effectively on scientific communication
+The hardest part was the mechanism figure: fitting absorption, reduction and DNA binding into one panel that a reader could follow in a few seconds without it becoming inaccurate. Given the chance again I would add the reduction kinetics and a clearer comparison of the trial outcomes, both of which the report covers but the poster does not.

@@ -1,112 +1,33 @@
 ---
 layout: page
-title: Identification & Quantification of Antiretroviral Drugs using HPLC‑MS
-description: Identification and quantification of antiretroviral drugs in an unknown sample using HPLC‑MS.
+title: Identification and Quantification of Antiretroviral Drugs using HPLC-MS
+description: A second-year analytical lab in which I built calibration curves for five antiretrovirals, analysed an unknown, and used residual and LOD/LOQ analysis to work out what had gone wrong with it.
 img: /assets/img/arv-hplc-ms-cover.png
-importance: 2
+importance: 3
 ---
 
-## Links
-[Full PDF report]({{ "/assets/pdf/ARV-HPLC-MS-REPORT.pdf" | relative_url }})
+[Full report (PDF)]({{ "/assets/pdf/ARV-HPLC-MS-REPORT.pdf" | relative_url }})
 
----
+This was a university laboratory exercise from March 2025, written up as a journal-style report. The task was to identify and quantify antiretroviral drugs in a simulated bodily fluid by HPLC-MS. The method worked; the unknown sample did not, and most of what I got out of the exercise came from working out why.
 
-## At a glance
-- **Outcome:** Identified ARVs in an unknown sample + quantified those above LOQ
-- **Tools:** Agilent 1100 HPLC + Thermo LTQ Orbitrap XL (ESI+)
-- **Skills:** calibration models, residual/error analysis, LOQ/LOD reasoning
-- **Result highlight:** two analytes were quantifiable, but concentrations suggested a likely prep/dilution issue rather than method failure
+## The method
 
----
+Stock solutions of five antiretrovirals (efavirenz, emtricitabine, lopinavir, ritonavir and tenofovir disoproxil fumarate) were serially diluted to give calibration standards from 1 to 100 µg mL⁻¹. Each was run on an Agilent 1100 HPLC coupled to a Thermo LTQ Orbitrap XL in positive electrospray mode, on a C18 column with a formic acid water/acetonitrile gradient. A blank was run before each set of standards and its peak area subtracted, and the adjusted peak areas were regressed against concentration.
 
-## Overview
-**Can HPLC‑MS reliably identify and quantify antiretroviral drugs (ARVs) in a simulated biological matrix?**
-I built calibration curves (1–100 µg mL⁻¹), tested an "unknown" sample (MK‑U), then assessed performance using residuals and quantification limits.
+Linearity was good. R² ranged from 0.954 for emtricitabine to 0.996 for ritonavir, with most analytes above 0.99.
 
----
+## What the residuals showed
 
-## Objectives
-- Prepare calibration standards for five ARV drugs
-- Generate linear calibration curves (1–100 µg mL⁻¹)
-- Analyse an unknown sample (MK‑U)
-- Identify analytes using retention time
-- Quantify detected drugs using regression models
-- Evaluate method performance (LOD/LOQ, residuals, systematic error)
+Residual plots for lopinavir and ritonavir had the same shape: negative at 1, 10 and 100 µg mL⁻¹ and positive at 25 and 50 µg mL⁻¹. A curved residual pattern shared across two unrelated compounds points to something procedural rather than chemical, most likely pipetting error during the serial dilutions or slight detector non-linearity. Percentage errors across the 10 to 100 µg mL⁻¹ range sat within ±15%, which is acceptable for nominal concentrations, but at 1 µg mL⁻¹ the error exceeded 100% against an accepted limit of ±20% at the lower limit of quantification. The curves were usable, with the proviso that anything near the bottom of the range needed caution.
 
----
+## The unknown sample
 
-## Scope
-**ARVs included:**
+Screening the unknown (MK-U) against retention times found signals for four of the five drugs: lopinavir at about 18.7 min, ritonavir at 18.1, emtricitabine at 3.3 and TDF at 13.4. Efavirenz was absent.
 
-`Efavirenz`  `Emtricitabine`  `Lopinavir`  `Ritonavir`  `Tenofovir disoproxil fumarate (TDF)`
+Seeing a peak is not the same as being able to quantify it, so I calculated limits of detection and quantification for each analyte from the blank noise and the calibration slope. Emtricitabine and TDF were present at trace level with adjusted peak areas far below those of the other two, and could have been contamination, carry-over or background, so I reported them as detected but not quantified. Lopinavir and ritonavir were well above their LOQs and were quantified at 143.7 and 310.6 µg mL⁻¹ respectively.
 
----
+Both values are outside the validated 1 to 100 µg mL⁻¹ range, and the sample had been prepared from diluted standards that should have fallen inside it. That rules out the method and points to the preparation: an incorrect dilution, over-spiking, or failure to adjust the total volume after adding more than one standard. With no replicate injections there was no way to assess precision, which is the first thing I would change.
 
-## Approach
-- Prepared standards by serial dilution
-- Ran samples on **HPLC‑MS (ESI+, Orbitrap)**
-- Used **adjusted peak area vs concentration** to build linear models
-- Checked residuals for bias and assessed **LOQ/LOD suitability**
+## What I would do differently
 
----
-
-## Results
-
-### 1) Calibration performance
-**Overall:** strong linearity across all ARVs.
-
-- **R² range:** 0.954–0.996
-- **Residuals:** slight systematic error visible
-- **Low end (1 µg mL⁻¹):** high relative error (consistent with LLOQ limitations)
-
-> **Takeaway:** calibration was good enough for identification and quantification *within range*, but lowest points carried larger uncertainty.
-
----
-
-### 2) Unknown sample (MK‑U): what was detected?
-Detected:
-  **`Lopinavir`**
-  **`Ritonavir`**
-  **`Emtricitabine`**
-  **`TDF`**
-
-Not detected: `Efavirenz`
-
----
-
-### 3) Quantification (above LOQ)
-Only Lopinavir and Ritonavir exceeded LOQ thresholds:
-
-| Analyte | Concentration (µg mL⁻¹) | Note |
-|---|---:|---|
-| Lopinavir | **143.7** | above calibration range |
-| Ritonavir | **310.6** | above calibration range |
-
-> **Interpretation:** both values were **outside the validated range (1–100 µg mL⁻¹)**, strongly suggesting a dilution/preparation issue for MK‑U rather than instrument/method failure.
-
----
-
-## Interpretation
-**What worked well**
-- High sensitivity and clear response across the calibration range
-- Reliable identification of ARVs in a simulated biological matrix
-- Residual analysis provided useful diagnostics (bias vs random error)
-
-**What likely went wrong**
-- MK‑U concentrations were implausibly high and beyond the calibration range → most consistent with **prep/dilution error**
-
----
-
-## Improvements
-- Replicate injections to reduce uncertainty
-- Internal standards to improve quantitative robustness
-- Direct dilutions from stock solutions to reduce compounding error
-
----
-
-## What I learned
-- Practical experience with HPLC‑MS instrumentation
-- Building calibration curves + regression interpretation
-- Distinguishing systematic vs random error using residuals
-- Applying LOQ/LOD logic to real data
-- Communicating results clearly for non-specialists
+Dilute directly from the stock rather than through a chain of intermediates, so errors do not compound. Run replicate injections. Use an internal standard. None of these is unusual, but the exercise made clear which failure each one guards against.
