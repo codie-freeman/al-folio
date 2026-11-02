@@ -44,7 +44,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/resources/";
               },
-            },{id: "post-model-report-the-interim-submission",
+            },{id: "post-do-orca-simulations-give-us-a-richer-training-set",
+        
+          title: "Do ORCA simulations give us a richer training set?",
+        
+        description: "Running every compound through DFT, asking three separate ways whether the result helps, and finding each time that the control is what decided the answer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-10/";
+          
+        },
+      },{id: "post-to-split-or-not-to-split",
+        
+          title: "To split or not to split",
+        
+        description: "Building a cluster-disjoint cross-validation design to explain four leaderboard failures, watching the result that motivated it disappear as the fold count rose, and what the same runs turned up instead.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-9/";
+          
+        },
+      },{id: "post-model-report-the-interim-submission",
         
           title: "Model report: the interim submission",
         
@@ -52,7 +74,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-Interim-Leaderboard/";
+            window.location.href = "/blog/2026/OpenADMET-CYP-Challenge-Interim-Leaderboard-copy/";
           
         },
       },{id: "post-four-confirmations-four-board-failures",
@@ -363,24 +385,29 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/what%20if/";
-            },},{id: "projects-identification-amp-quantification-of-antiretroviral-drugs-using-hplc-ms",
-          title: 'Identification &amp;amp; Quantification of Antiretroviral Drugs using HPLC‑MS',
-          description: "Identification and quantification of antiretroviral drugs in an unknown sample using HPLC‑MS.",
+            },},{id: "projects-identification-and-quantification-of-antiretroviral-drugs-using-hplc-ms",
+          title: 'Identification and Quantification of Antiretroviral Drugs using HPLC-MS',
+          description: "A second-year analytical lab in which I built calibration curves for five antiretrovirals, analysed an unknown, and used residual and LOD/LOQ analysis to work out what had gone wrong with it.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Identification%20and%20quantification%20of%20ARVs/";
-            },},{id: "projects-inverse-gas-chromatography",
-          title: 'Inverse Gas Chromatography',
-          description: "A lightweight, reproducible toolkit for parsing, analysing, and visualising Inverse Gas Chromatography (IGC) surface energy data.",
+            },},{id: "projects-igcsea",
+          title: 'igcsea',
+          description: "An open-source Python package for calculating surface energy from inverse gas chromatography data, validated against the vendor software and built so every step of the calculation can be inspected.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Inverse%20Gas%20Chromatograpghy/";
+            },},{id: "projects-machine-learning-for-cyp450-inhibition-prediction",
+          title: 'Machine Learning for CYP450 Inhibition Prediction',
+          description: "My final-year project, entered in the OpenADMET CYP450 blind challenge. A model comparison under a frozen statistical protocol, and a record of how often a cross-validated improvement failed to survive contact with held-out data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Machine%20Learning%20for%20CYP450%20Inhibition%20Prediction/";
             },},{id: "projects-satraplatin-as-an-orally-active-pt-iv-prodrug",
           title: 'Satraplatin as an Orally Active Pt(IV) Prodrug',
-          description: "Scientific poster examining Satraplatin&#39;s structure, mechanism, and clinical context as an orally active Pt(IV) prodrug.",
+          description: "A group poster and extended report on why satraplatin can be taken orally when cisplatin cannot, how it is activated in the tumour cell, and why it has still not reached the clinic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Satraplatin%20as%20an%20Orally%20Active%20Pt(IV)%20Prodrug/";
             },},{id: "projects-effect-of-particle-size-reduction-on-the-surface-energy-of-sucrose",
           title: 'Effect of Particle Size Reduction on the Surface Energy of Sucrose',
-          description: "Investigating how processing-induced particle size reduction affects the surface energy of sucrose, characterised using iGC-SEA, PXRD, SEM, and BET nitrogen adsorption.",
+          description: "An iGC-SEA case study from my placement at Resolian, asking whether milling changes the surface energy of sucrose because the particles get smaller or because of how they were made smaller.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Sucrose%20Poster/";
             },},{
